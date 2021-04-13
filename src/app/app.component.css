@@ -180,19 +180,19 @@
 
 .footer-elem { width: 20%; float: left; font-size: 9px; text-align: center; font-family: arial;}
 
-.first-page { border: 1px solid #d1d1d1; padding: 50px; padding-right: 30px; font-size: 14px; position: relative; letter-spacing: 1px;
+.first-page { padding: 50px; padding-right: 30px; font-size: 14px; position: relative; letter-spacing: 1px; padding-left: 40px;
     font-family: 'firstPage'; background: url('../assets/images/Background Img.png'); background-size: cover; }
-.cover-page-heading > h5 {  font-size: 26px; display: inline-block; margin: 0; font-weight: 600;  }
+.cover-page-heading > h5 {  font-size: 30px; display: inline-block; margin: 0; font-weight: bolder;  }
 .cover-list-heading { font-size: 24px; display: inline-block; margin: 0; margin-left: 3px; font-weight: 600; }
-.cover-list-heading2 { font-size: 22px; display: inline-block; margin: 0; font-weight: bolder; position: absolute; bottom: 0; left: 20%; }
+.cover-list-heading2 { font-size: 24px; display: inline-block; margin: 0; font-weight: bolder; position: absolute; bottom: 0; left: 20%; }
 .cover-page-first-logo { display: inline-block; float: right; right: 15px; top: 50px; position: absolute; }
-.cover-page-second-logo { position: absolute; top: 18%; right: 30px; }
+.cover-page-second-logo { position: absolute; top: 21%; right: 20px; }
 .cover-page-first-logo img { height: 90px; }
-.cover-page-second-logo img { height: 210px; }
+.cover-page-second-logo img { height: 220px; }
 .list-color-disc-cover { margin-top: -7px; list-style-type: none; padding-left: 20px; padding-left: 0;}
 .disc-color-cover { width: 4px; height: 4px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px; 
   vertical-align: middle;}
-.first-page ul li { line-height: 25px; margin-top: 5px; font-weight: normal; font-size: 14px; }
+.first-page ul li { line-height: 25px; margin-top: 5px; font-weight: normal; font-size: 16px; margin-bottom: 10px; }
 .first-page-name-wrapper { margin-top: 5px; }
 .first-page-name-box { border: 1px solid #d1d1d1; border-radius: 10px; padding: 20px; box-shadow: 0px -1px 10px #b3b3b3; 
   background: white; padding-bottom: 10px;}
