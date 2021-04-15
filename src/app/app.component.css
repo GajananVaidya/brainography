@@ -135,7 +135,7 @@
         height: auto;
       }
     }
-
+.position-relative { position: relative; }
 .va-middle { vertical-align: middle; }
 .width-340 { width: 340px; }
 .width-100 { width: 100%; }
@@ -180,7 +180,7 @@
 
 .footer-elem { width: 20%; float: left; font-size: 9px; text-align: center; font-family: arial;}
 
-.first-page { padding: 50px; padding-right: 30px; font-size: 14px; position: relative; letter-spacing: 1px; padding-left: 40px;
+.first-page { padding: 40px; padding-right: 30px; font-size: 14px; position: relative; letter-spacing: 1px; padding-left: 40px;
     font-family: 'firstPage'; background: url('../assets/images/Background Img.png'); background-size: cover; }
 .cover-page-heading > h5 {  font-size: 30px; display: inline-block; margin: 0; font-weight: bolder;  }
 .cover-list-heading { font-size: 24px; display: inline-block; margin: 0; margin-left: 3px; font-weight: 600; }
@@ -576,7 +576,7 @@
       padding-top: 15px;
       font-weight: normal;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 17px;
+      font-size: 14px;
       color: #1e1d19;
       line-height: 24px;
       background-color: #ffffff;
@@ -745,3 +745,147 @@
  .Fifth-page-sec-width12{
         width: 12%;
   }
+
+.fifth-page { font-family: Arial; font-size: 14px; }
+.fifth-page-row { padding: 0 10px; }
+.fifth-page-first-box { float: left; padding: 10px; }
+.fifth-page-first-main { 
+  background-color: #e6e7e8;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    width: 39%;
+    padding: 18px 0;
+}
+
+.fifth-page-second-main {
+  background-color: #e6e7e8;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 20.45%;
+    margin: 0 5px;
+    padding: 9px 0;
+}
+
+.fifth-page-third-main {
+    background-color: #e6e7e8;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    width: 39%;
+    padding: 18px 0;
+}
+
+.fifth-page-first-main-content { 
+    background-color: #e6e7e8;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 39%;
+    height: 190px;
+    overflow: hidden;
+}
+
+.fifth-page-second-main-content {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 20.45%;
+    margin: 0 5px;
+    position: relative;
+    background: #f7abad;
+    -webkit-print-color-adjust: exact;
+    vertical-align: top;
+    padding-top: 5px;
+    height: 185px;
+    overflow: hidden;
+}
+
+.fifth-page-third-main-content {
+    background-color: #e6e7e8;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 39%;
+    height: 190px;
+    overflow: hidden;
+}
+
+.rank {
+    width: 5%;
+    color: #fff;
+    text-align: center;
+    background-color: #2e3192;
+    padding: 5px 10px;
+    float: left;
+    font-weight: normal;
+}
+
+.fifth-section-name {
+    width: 54%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e6e7e8;
+    padding: 5px 10px;
+    float: left;
+}
+
+.perc {
+    width: 16%;
+    color: #fff;
+    text-align: center;
+    background-color: #2e3192;
+    -webkit-print-color-adjust: exact;
+    padding: 5px 10px;
+    float: left;
+    font-weight: normal;
+}
+
+.Fifth-page-second-content-absolute-num {
+  position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    text-align: center;
+    background: #cae8f9;
+    border: 1px solid #000;
+    border-radius: 150px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 22px;
+    bottom: -13px;
+}
+
+.fifth-page-left-image {
+  float: left;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.fifth-page-left-image img { width: 100%; }
+
+.fifth-page-left-content.Fifthpage20 {
+  float: left;
+  text-transform: capitalize;
+  width: 45%;
+}
+
+.fifth-page-left-content.Fifthpage20 > ul {
+  padding-left: 20px;
+}
