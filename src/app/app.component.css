@@ -193,7 +193,7 @@
 .cover-list-heading { font-size: 24px; display: inline-block; margin: 0; margin-left: 3px; font-weight: 600; }
 .cover-list-heading2 { font-size: 24px; display: inline-block; margin: 0; font-weight: bolder; position: absolute; bottom: 0; left: 20%; }
 .cover-page-first-logo { display: inline-block; float: right; right: 15px; top: 50px; position: absolute; }
-.cover-page-second-logo { position: absolute; top: 21%; right: 20px; }
+.cover-page-second-logo { position: absolute; top: 21%; right: 0; }
 .cover-page-first-logo img { height: 90px; }
 .cover-page-second-logo img { height: 220px; }
 .list-color-disc-cover { margin-top: -7px; list-style-type: none; padding-left: 20px; padding-left: 0;}
@@ -354,9 +354,9 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-right: 1px solid #3a3633;
+      /* border-right: 1px solid #3a3633;
       border-bottom: 1px solid #3a3633;
-      border-left: 1px solid #3a3633;
+      border-left: 1px solid #3a3633; */
     }
     .page3-sec4 {
       font-family: Arial, Helvetica, sans-serif;
@@ -369,9 +369,9 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-right: 1px solid #3a3633;
+      /* border-right: 1px solid #3a3633;
       border-bottom: 1px solid #3a3633;
-      border-left: 1px solid #3a3633;
+      border-left: 1px solid #3a3633; */
     }
 
     .page3-sec2 {
@@ -385,8 +385,8 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-right: 1px solid #3a3633;
-      border-bottom: 1px solid #3a3633;
+      /* border-right: 1px solid #3a3633;
+      border-bottom: 1px solid #3a3633; */
     }
 
     .page3-sec3 {
@@ -399,9 +399,8 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-bottom: 1px solid #3a3633;
-      border-right: 1px solid #3a3633;
-
+      /* border-bottom: 1px solid #3a3633;
+      border-right: 1px solid #3a3633; */
     }
 
 
@@ -435,9 +434,9 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-right: 1px solid #3a3633;
+      /* border-right: 1px solid #3a3633;
       border-left: 1px solid #3a3633;
-      border-bottom: 1px solid #3a3633;
+      border-bottom: 1px solid #3a3633; */
       width: 31%;
       text-align: left;
       vertical-align: middle;
@@ -451,8 +450,8 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-bottom: 1px solid #3a3633;
-      border-right: 1px solid #3a3633;
+      /* border-bottom: 1px solid #3a3633;
+      border-right: 1px solid #3a3633; */
       width: 69%;
       text-align: left;
       vertical-align: middle;
@@ -466,8 +465,8 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-bottom: 1px solid #3a3633;
-      border-right: 1px solid #3a3633;
+      /* border-bottom: 1px solid #3a3633;
+      border-right: 1px solid #3a3633; */
       width: 69%;
       text-align: left;
       vertical-align: middle;
@@ -481,13 +480,13 @@
       font-weight: normal;
       padding: 5px 10px;
       word-break: break-word;
-      border-right: 1px solid #3a3633;
+      /* border-right: 1px solid #3a3633;
       border-top: none;
-      border-bottom: 1px solid #3a3633;
+      border-bottom: 1px solid #3a3633; */
       width: 31%;
       text-align: left;
       vertical-align: middle;
-      border-left: 1px solid #3a3633;
+      /* border-left: 1px solid #3a3633; */
     }
 
     .page3-sec-evl-details {
@@ -501,8 +500,8 @@
       width: 69%;
       text-align: left;
       vertical-align: middle;
-      border-bottom: 1px solid #3a3633;
-      border-right: 1px solid #3a3633;
+      /* border-bottom: 1px solid #3a3633;
+      border-right: 1px solid #3a3633; */
     }
 
     .page3-chekbx {
@@ -605,7 +604,7 @@
       background-color: #ffffff;
       text-align: left !important;
       text-align: justify !important;
-
+      
     }
 
     .page4-subhead-20 {
@@ -620,7 +619,7 @@
       line-height: 20px;
       background-color: #ffffff;
       text-align: center !important;
-
+      padding-top: 5px;
 
     }
 
