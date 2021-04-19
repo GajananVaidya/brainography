@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "brainography"
+  "defaultProject": "brainography",
+  "cli": {
+    "analytics": false
+  }
 }
