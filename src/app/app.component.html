@@ -1420,26 +1420,12 @@
         </div>
       </div>
      
-      <app-page6></app-page6>
-      <div style="margin-top: 5px;">
-        <div class="footer-elem">
-          Evaluation# {{ data.footer.evalNo }}
-        </div>
-        <div class="footer-elem2 text-left">
-          Date
-        </div>
-        <div class="footer-elem1">
-          @Copyright - Siyasar Enterprise
-        </div>
-        <div class="footer-elem">
-          www.brainography.com
-        </div>
-        <div class="footer-elem">
-          Design By Freepik
-        </div>
-
-        <div class="clear-both"></div>
+      <div class="ml-40">
+        <app-page6></app-page6>
+        <app-footer [footerData]="data"></app-footer>
       </div>
+      
+     
       
     </div>
   </div>
