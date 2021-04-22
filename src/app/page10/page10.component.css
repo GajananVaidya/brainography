@@ -1,3 +1,8 @@
 .tenth-page { font-family: Arial; font-size: 14px; text-align: justify; }
-.fifth-page-row { padding: 5px 0; }
+.tenth-page-row { padding: 5px 0; }
 .fifth-page-first-box { float: left; padding: 0 5px; }
+.tenth-page-fs23{padding: 2px 5px; float: left;}
+.tenth-page-cont12{padding: 5px; float: left;}
+.tenth-page-cont13{padding: 0px 5px 5px 5px; float: left;}
+.tenth-page-cont1 { background-color: #ffffff; width: 68%; float: left;  }
+.tenth-page-first-box { float: right; width: 26%;}
