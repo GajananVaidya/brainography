@@ -16,8 +16,8 @@
 .logo-img { width: 120px; }
 .text-right { text-align: right; }
 .text-center { text-align: center; }
-.sixth-page-fs1{ font-size: 13px; padding: 8px 5px 5px 5px; float: left;}
-.sixth-page-fs2{float: left;font-size: 13px; padding: 5px 5px 5px 7px;}
+.sixth-page-fs1{ padding: 8px 5px 5px 5px; float: left;}
+.sixth-page-fs2{float: left; padding: 5px 5px 5px 7px;}
 .sixth-page-fs3{ float: left;   padding: 5px 16px 8px 5px;}
 .sixth-page-first-box { float: left; padding: 10px; }
 .sixth-page-row { padding: 0 10px; }
