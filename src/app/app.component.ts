@@ -34,11 +34,11 @@ export class AppComponent {
           eval: '90211'
         },
         company: {
-          name : 'Sameer Sheth',
+          name : 'Sameer Sheth Company',
           contact: '9898989898',
           email: 'abc@gmail.com',
           address: 'Room No. 403, B wing, Saraswati Apartments, Airoli, Navi Mumbai 400701.',
-          dealer: '90211'
+          dealer: '12345'
         }
       },
       page5: {

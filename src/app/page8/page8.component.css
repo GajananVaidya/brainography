@@ -1,15 +1,16 @@
 .blue-header { padding-bottom: 5px;
     padding-top: 5px;
-    font-weight: bold;
+    font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-color: #39b3c2;
-    text-align: center; 
+    text-align: center;
+    font-size: 20px; 
 }
 .eighth-page { font-family: Arial; font-size: 14px; text-align: justify;}
 .fifth-page-row { padding:  10px; }
 .fifth-page-first-box { float: left; padding: 0 10px; }
-.eigth-middle-row-section { margin-left: 20%; line-height: 30px; }
+.eigth-middle-row-section { margin-left: 15%; line-height: 30px; font-size: 18px; margin-top: 10px; margin-bottom: 10px; }
 .eight-page-left-sec { float: left; }
 .eight-page-left-sec:nth-child(odd) { width: 42%; }
 .eight-page-left-sec:nth-child(even) { width: 54%; }
