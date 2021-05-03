@@ -1,0 +1,14 @@
+.eleventh-page { font-family: Arial; font-size: 14px; text-align: justify; }
+.eleventh-page-row { padding: 5px 0; }
+.fifth-page-first-box { float: left; padding: 0 5px; }
+.eleventh-page-fs23{padding: 2px 0px; float: left;}
+.eleventh-page-cont12{ float: left; width: 2%; background-color: #102a80; padding: 4px 8px; color: #ffffff;font-weight: bold;font-size: 22px;}
+.eleventh-page-cont13{padding: 0px 5px 5px 5px; float: left;}
+.eleventh-page-cont1 { background-color: #ffffff; width: 68%; float: left;  }
+.eleventh-page-first-box { float: right; width: 26%;}
+.eleventh-page-sujbof {width: 6.6px;  height: 7.5px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px;}
+.eleventh-page-listsub{margin-top: 11px; list-style-type: none; padding-left: 20px; }
+.eleventh-page-list-color{width: 6.6px; height: 6.5px;background: #b3b3b3;display: inline-block;border-radius: 10px; margin-right: 3px}
+.eleventh-page-marlf14{margin-left: 30px;}
+.eleventh-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px;}
+.eleventh-page-subof{ margin-top: 10px;}
