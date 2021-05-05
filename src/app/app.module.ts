@@ -15,6 +15,7 @@ import { Page4Component } from './page4/page4.component';
 import { Page5Component } from './page5/page5.component';
 import { Page11Component } from './page11/page11.component';
 import { Page12Component } from './page12/page12.component';
+import { Page13Component } from './page13/page13.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { Page12Component } from './page12/page12.component';
     Page4Component,
     Page5Component,
     Page11Component,
-    Page12Component
+    Page12Component,
+    Page13Component
   ],
   imports: [
     BrowserModule
