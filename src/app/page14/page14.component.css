@@ -1,0 +1,42 @@
+.fourteenth-page { font-family: Arial;  font-size: 14px;  text-align: justify; }
+.mt-20 { margin-top: 20px; }
+.mt-18{ margin-top: 18px; }
+.mt-16{ margin-top: 16px; }
+.mt-22{ margin-top: 22px; }
+.paddtop23{ padding-top: 23px;}
+.mx-15 { margin-left: 15px; margin-right: 15px; }
+.mx-17 { margin-left: 17px; margin-right: 17px; }
+.mt-10 { margin-top: 10px; }
+.mt-2 { margin-top: 2px; }
+.mt-50 { margin-top: 50px; }
+.mt-40 { margin-top: 40px; }
+.ml-20 { margin-left: 20px; }
+.ml-40 { margin-left: 40px; }
+.clear-both { clear: both; }
+.logo-img { width: 120px; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.fourteenth-page-sec78{float: left; padding: 10px;}
+.fourteenth-page-fs1{ font-size: 15px; float: left;}
+.fourteenth-page-fs2{float: left;font-size: 15px; padding: 5px 5px 5px 7px;}
+.fourteenth-page-fs3{ float: left;   padding: 5px 16px 8px 5px;}
+.fourteenth-page-first-bx45{border: 1px solid #d2d2d2; position: relative;float: right; padding: 55px 0px 55px 0px;}
+.fourteenth-page-first-box { float: right; width: 29%;}
+.fourteenth-page-firstbx25{padding: 10px 5px; height: 137px; overflow: hidden;}
+.fourteenth-page-75 { padding: 0 10px!important; }
+.fourteenth-page-qns2{float: left; padding: 10px; }
+.fourteenth-page-fs20{padding: 8px 7px 5px 7px; float: left;}
+.fourteenth-page-fs21{padding: 8px 5px 5px 5px; float: left;}
+.fourteenth-page-fs22{padding: 5px 7px;float: left;}
+.fourteenth-page-fs23{padding: 5px 7px 10px 5px;float: left;}
+.fourteenth-page-gray-box { background-color: #e6e7e8; width: 68%; float: left; line-height: 18px; }
+.fourteenth-page-igcse { width: 47%; float: left; border-right: 1px solid; padding-right: 10px; margin-right: 8px; }
+.fourteenth-page-ib { width: 47%; float: right; }
+.fourteenth-page-underline { border-bottom: 1px solid; padding-bottom: 7px;  margin-bottom: 7px; }
+.footer-elem { width: 20%; float: left; font-size: 9px; text-align: center; font-family: arial;}
+.footer-elem1 { width: 23%; float: left; font-size: 9px; text-align: center; font-family: arial;}
+.footer-elem2 { width: 17%; float: left; font-size: 9px; text-align: center; font-family: arial;}
+
+
+.fourteenth-page-row { padding: 5px; font-size: 13.5px;  }
+.fourteenth-page-first-box { float: left; padding: 0 5px; }
