@@ -7,8 +7,15 @@
 .tenth-page-cont1 { background-color: #ffffff; width: 68%; float: left;  }
 .tenth-page-first-box { float: right; width: 26%;} 
 .tenth-page-sujbof {width: 6.6px;  height: 7.5px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px;}
-.tenth-page-listsub{margin-top: 11px; list-style-type: none; padding-left: 20px; }
+.tenth-page-listsub {margin-top: 11px; padding-left: 20px; list-style: none; }
+.tenth-page-listsub li { float: left; list-style-position: inside; margin-right: 15px;}
+.tenth-page-listsub li::before { content: "\2022"; color: #989898; display: inline-block; width: .7em; }
+
+/* .tenth-page-listsub li span { position: relative; left: -10px; } */
 .tenth-page-list-color{width: 6.6px; height: 6.5px;background: #b3b3b3;display: inline-block;border-radius: 10px; margin-right: 3px}
 .tenth-page-marlf14{margin-left: 13px;}
 .tenth-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px;}
 .tenth-page-subof{ margin-top: 10px;}
+
+.ur-talent { display: inline-block; background: white; padding: 10px; position: absolute; top: -18px; margin-left: -60px; font-weight: 600; color: #00035f; }
+.ur-talent-wrapper { text-align: center; position: relative; border-top: 1px solid; }
