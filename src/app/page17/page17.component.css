@@ -1,0 +1,128 @@
+.fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; }
+.sixteenth-page-fsize{font-size: 16px;}
+.mt-5{margin-top: 5px;}
+.seventeen-page-careerwidth32{ width: 32.5%; float: left; margin-right: 5px;}
+.seventeen-page-width79{width: 79%; float: left; border-right: 4px solid white;}
+.sixteenth-page-hd1 {  background-color: #1d2f81 }
+.sixteenth-page-careeroption{
+    background-color: #959492;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 25.75%;
+    padding: 10px 0px;
+    border-right: 4px solid white;
+    color: #ffffff;
+}
+.sixteenth-page-careeroption1{
+    background-color: #959492;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 6%;
+    padding: 10px 2px;
+    border-right: 4px solid white;
+    color: #ffffff;
+}
+.sixteenth-page-careerhuman{
+    background-color: #73c4f1;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    color: #ffffff;
+}
+.sixteenth-page-careerhumanperc{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    color: black;
+}
+.sixteenth-page-careerhumanperc1{
+    background-color: #73c4f1;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    color: #ffffff;
+}
+.sixteenth-page-careerbio{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    color: black; 
+}
+.sixteenth-page-careerbio1{
+    background-color: #73c4f1;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    color: #ffffff; 
+}
+.sixteenth-page-careerbhms{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    width: 25.75%;
+    padding: 2px 0px;
+    border-right: 4px solid white;
+    color: black;    
+}
+.sixteenth-page-careerplant{
+    background-color: #a198c5;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    width: 25.75%;
+    padding: 10px 0px;
+    border-right: 4px solid white;
+    color: black; 
+}
+.sixteenth-page-careerbams{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    float: left;
+    width: 25.75%;
+    padding: 2px 0px;
+    border-right: 4px solid white;
+    color: black;    
+}
+.sixteenth-page-careergastroperc{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+   width: 6%;
+    padding: 10px 2px;
+    color: black;
+}
+.sixteenth-page-careerplant1{
+    background-color: #a198c5;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 6%;
+    padding: 10px 0px;
+    border-right: 4px solid white;
+    color: black;
+}
+.sixteenth-page-pdlft5{
+    padding-left: 5px;
+}
+
+
+

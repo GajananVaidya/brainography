@@ -18,6 +18,8 @@ import { Page12Component } from './page12/page12.component';
 import { Page13Component } from './page13/page13.component';
 import { Page14Component } from './page14/page14.component';
 import { Page15Component } from './page15/page15.component';
+import { Page16Component } from './page16/page16.component';
+import { Page17Component } from './page17/page17.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { Page15Component } from './page15/page15.component';
     Page12Component,
     Page13Component,
     Page14Component,
-    Page15Component
+    Page15Component,
+    Page16Component,
+    Page17Component
   ],
   imports: [
     BrowserModule
