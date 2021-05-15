@@ -1,38 +1,40 @@
-.fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
-.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; }
+.fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 11px;}
+.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; width: 100%; font-size: 16px; font-weight: 900;}
 .sixteenth-page-fsize{font-size: 16px;}
 .mt-5{margin-top: 5px;}
-.seventeen-page-careerwidth32{ width: 32.5%; float: left; margin-right: 5px;}
-.seventeen-page-width79{width: 79%; float: left; border-right: 4px solid white;}
+.seventeen-page-careerwidth32{ margin-right: 5px; flex: 1;}
+.seventeen-page-width79{ border-right: 5px solid white; flex: 7.5;}
 .sixteenth-page-hd1 {  background-color: #1d2f81 }
 .sixteenth-page-careeroption{
     background-color: #959492;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
-    padding: 10px 0px;
-    border-right: 4px solid white;
+    /* float: left; */
+    /* width: 25.75%; */
+    padding: 5px 10px;
+    border-right: 5px solid white;
     color: #ffffff;
+    flex: 7;
 }
 .sixteenth-page-careeroption1{
     background-color: #959492;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 6%;
-    padding: 10px 2px;
-    border-right: 4px solid white;
+    /* float: left; */
+    /* width: 6%; */
+    padding: 5px 10px;
+    border-right: 5px solid white;
     color: #ffffff;
+    flex: 1;
 }
 .sixteenth-page-careerhuman{
     background-color: #73c4f1;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    padding: 10px 0px;
+    padding: 10px 5px;
     color: #ffffff;
 }
 .sixteenth-page-careerhumanperc{
@@ -40,24 +42,40 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 2px;
+    padding-top: 10px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    /* width: 18%;
+    float: left; */
+    flex: 1.65;
 }
 .sixteenth-page-careerhumanperc1{
     background-color: #73c4f1;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 2px;
+    padding-top: 10px;
     color: #ffffff;
+    /* display: flex;
+    flex-direction: column;
+    width: 18%;
+    float: left; */
+    flex: 1.65;
 }
 .sixteenth-page-careerbio{
     background-color: #e7e7e7;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    padding: 3px 5px;
+    padding: 5px;
     color: black; 
+    padding-right: 10px;
+}
+.sixteenth-page-careerbio span{
+    font-weight: normal;
+    text-transform: capitalize;
+    display: block;
 }
 .sixteenth-page-careerbio1{
     background-color: #73c4f1;
@@ -124,5 +142,12 @@
     padding-left: 5px;
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line-height-15 { line-height: 15px; }
+.line-height-15 span { line-height: 12px; }
 
 
