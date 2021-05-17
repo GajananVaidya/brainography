@@ -1,0 +1,88 @@
+.fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+.eighteen-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; }
+.eighteen-page-fsize{font-size: 16px;}
+.mt-5{margin-top: 5px;}
+.eighteen-page-careerwidth32{ width: 49.26%; float: left; margin-right: 5px;}
+.eighteen-page-margin-rght{margin-right: 0px;}
+.eighteen-page-width79{width: 86%; float: left; border-right: 4px solid white;}
+.eighteen-page-hd1 {  background-color: #7d839b }
+
+.eighteen-page-careerhuman{
+    background-color: #959492;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    color: #ffffff;
+}
+.eighteen-page-careerhumanperc{
+    background-color: #959492;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    color: #ffffff;
+}
+.eighteen-page-careerhumanperc1{
+    background-color: #959492;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 2px;
+    color: #ffffff;
+}
+.eighteen-page-careerbio{
+    background-color: #f8d1ca;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    color: black; 
+}
+.eighteen-page-careerbio1{
+    background-color: #f8d1ca;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 5px;
+    color: black; 
+}
+
+.eighteen-page-careercomm{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: black; 
+}
+.eighteen-page-careercommperc{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    color: black;
+}
+.eighteen-page-careercomm10{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    color: black; 
+}
+.eighteen-page-careercommperc10{
+    background-color: #e7e7e7;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    color: black;
+}
+.eighteen-page-pdlft5{
+    padding-left: 5px;
+}
+.pad7{padding: 8.3px 10px;}
+.padd{padding: 8.3px 5px;}
+.padd15{padding: 15.3px 5px;}
