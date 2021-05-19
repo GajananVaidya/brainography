@@ -7,8 +7,11 @@
 .eleventh-page-cont1 { background-color: #ffffff; width: 68%; float: left;  }
 .eleventh-page-first-box { float: right; width: 26%;}
 .eleventh-page-sujbof {width: 6.6px;  height: 7.5px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px;}
-.eleventh-page-listsub{margin-top: 11px; list-style-type: none; padding-left: 20px; }
 .eleventh-page-list-color{width: 6.6px; height: 6.5px;background: #b3b3b3;display: inline-block;border-radius: 10px; margin-right: 3px}
 .eleventh-page-marlf14{margin-left: 30px;}
-.eleventh-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px;}
+.eleventh-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px; min-height: 120px; padding-top: 0;}
 .eleventh-page-subof{ margin-top: 10px;}
+
+.eleventh-page-listsub {margin-top: 11px; padding-left: 10px; list-style: none; }
+.eleventh-page-listsub li { float: left; list-style-position: inside; margin-right: 15px; line-height: 25px;} 
+.eleventh-page-listsub li::before { content: "\2022"; color: #989898; display: inline-block; width: .7em; }
