@@ -34,8 +34,8 @@
 .fifth-page-first-box { float: left; padding: 0 10px; }
 .eigth-middle-row-section { margin-left: 20%; line-height: 30px; }
 .eight-page-left-sec { float: left; }
-.eight-page-left-sec:nth-child(odd) { width: 40%; }
-.eight-page-left-sec:nth-child(even) { width: 56%; }
+.eight-page-left-sec:nth-child(odd) { width: 45%; }
+.eight-page-left-sec:nth-child(even) { width: 50%; }
 
 .eighth-page p { margin: 10px 0; }
 .left-dot-sec { width: 3%; float: left; }

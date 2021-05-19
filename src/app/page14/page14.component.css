@@ -17,12 +17,13 @@
 .text-right { text-align: right; }
 .text-center { text-align: center; }
 .fourteenth-page-sec78{float: left; padding: 10px;}
-.fourteenth-page-fs1{ font-size: 15px; float: left;}
+.fourteenth-page-perc { width: 19%; float: left; text-align: center; margin-top: 7px; font-weight: bold; }
+.fourteenth-page-fs1{ font-size: 15px; float: left; width: 80%; float: left; margin-left: 1px;}
 .fourteenth-page-fs2{float: left;font-size: 15px; padding: 5px 5px 5px 7px;}
 .fourteenth-page-fs3{ float: left;   padding: 5px 16px 8px 5px;}
-.fourteenth-page-first-bx45{border: 1px solid #d2d2d2; position: relative;float: right; padding: 55px 0px 55px 0px;}
+.fourteenth-page-first-bx45{border: 1px solid #d2d2d2; position: relative;float: right; padding: 55px 0px 55px 0px; width: 40%;}
 .fourteenth-page-first-box { float: right; width: 29%;}
-.fourteenth-page-firstbx25{padding: 10px 5px; height: 137px; overflow: hidden;}
+.fourteenth-page-firstbx25{padding: 15px; height: 137px; overflow: hidden; width: 53%; float: left; background-color: #e6e7e8; padding-top: 5px;}
 .fourteenth-page-75 { padding: 0 10px!important; }
 .fourteenth-page-qns2{float: left; padding: 10px; }
 .fourteenth-page-fs20{padding: 8px 7px 5px 7px; float: left;}
@@ -38,5 +39,5 @@
 .footer-elem2 { width: 17%; float: left; font-size: 9px; text-align: center; font-family: arial;}
 
 
-.fourteenth-page-row { padding: 5px; font-size: 13.5px;  }
+.fourteenth-page-row { padding: 10px; }
 .fourteenth-page-first-box { float: left; padding: 0 5px; }
