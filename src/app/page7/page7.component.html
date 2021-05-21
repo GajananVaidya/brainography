@@ -43,11 +43,11 @@
 
       <div class="seventh-page-first-bx45" style="width: 45%;">
         <div class="seventh-page-fs1" style="width: 75%; float: left; margin-left: 1px;">
-          <div style="height:45px; width: 100%; background-color: #f3adb7;"></div>
+          <div class="ssc-bar" [ngStyle]="{'width': data.dataMap.page7.ssc_perc+'%' }"></div>
         </div>
         <div class="seventh-page-fs1" style="width: 24%; float: left; text-align: center; margin-top: 7px; font-weight: bold;">
-           100% 
-           <div>2x</div>
+           {{data.dataMap.page7.ssc_perc}}% 
+           <div>{{data.dataMap.page7.ssc_arch}}</div>
         </div>
         <div class="clear-both"></div>
       </div>
@@ -67,12 +67,12 @@
 
       <div class="seventh-page-first-bx45" style="width: 45%; ">
         <div class="seventh-page-fs1" style="width: 75%; float: left; margin-left: 1px;">
-          <div style="height:45px; width: 100%; background-color: #87cac5;"></div>
+          <div class="cbse-bar" [ngStyle]="{'width': data.dataMap.page7.cbse_perc+'%' }"></div>
         </div>
 
         <div class="seventh-page-fs1" style="width: 24%; float: left; text-align: center; margin-top: 7px; font-weight: bold;">
-          100% 
-          <div>2x</div>
+          {{data.dataMap.page7.cbse_perc}}% 
+          <div>{{data.dataMap.page7.cbse_arch}}</div>
        </div>
        <div class="clear-both"></div>
       </div>
@@ -93,12 +93,12 @@
 
       <div class="seventh-page-first-bx45" style="width: 45%; ">
         <div class="seventh-page-fs1" style="width: 75%; float: left; margin-left: 1px;">
-          <div style="height:45px; width: 100%; background-color: #62bff0;"></div>
+          <div class="icse-bar" [ngStyle]="{'width': data.dataMap.page7.icse_perc+'%' }"></div>
         </div>
 
         <div class="seventh-page-fs1" style="width: 24%; float: left; text-align: center; margin-top: 7px; font-weight: bold;">
-          100% 
-          <div>2x</div>
+          {{data.dataMap.page7.icse_perc}}% 
+          <div>{{data.dataMap.page7.icse_arch}}</div>
        </div>
        <div class="clear-both"></div>
       </div>
@@ -129,12 +129,12 @@
 
       <div class="seventh-page-first-bx45" style="width: 45%; ">
         <div class="seventh-page-fs1" style="width: 75%; float: left; margin-left: 1px;">
-          <div style="height:45px; width: 100%; background-color: #a098c4;"></div>
+          <div class="igcse-bar" [ngStyle]="{'width': data.dataMap.page7.ib_perc+'%' }"></div>
         </div>
 
         <div class="seventh-page-fs1" style="width: 24%; float: left; text-align: center; margin-top: 7px; font-weight: bold;">
-          100% 
-          <div>2x</div>
+          {{data.dataMap.page7.ib_perc}}% 
+          <div>{{data.dataMap.page7.ib_arch}}</div>
        </div>
        <div class="clear-both"></div>
       </div>

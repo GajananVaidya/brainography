@@ -3,7 +3,7 @@
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
   
-    <div class="mt-20" style="background-color: #e6e7e8!important;">
+    <div class="" style="background-color: #e6e7e8!important;">
         <div class="fifth-page-row">
           <div class="fifth-page-first-box" style="width: 2%;"><strong>Q</strong></div>
           <div class="fifth-page-first-box" style="width: 90%;"><strong>Why am I more attracted towards these activities?</strong> </div>
@@ -58,20 +58,23 @@
         <div class="twelveth-page-sect25">
           <div class="perc-row">
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #d4c4b4;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">HEART</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.heart)+'px' }" >{{data.dataMap.page12.heart}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.heart+'px' }" style="background-color: #d4c4b4;"></span>
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">HEART</div>
             </div>
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #e9b15a;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">MIND</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.Mind)+'px' }">{{data.dataMap.page12.Mind}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.Mind+'px' }" style="background-color: #e9b15a;"></span>
+               
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">MIND</div>
             </div>
             <div class="clear-both"></div>
           </div>
@@ -84,20 +87,24 @@
         <div class="twelveth-page-sect25">
           <div class="perc-row">
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #c8d8cd; "></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">INDOOR</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.indoor)+'px' }">{{data.dataMap.page12.indoor}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.indoor+'px' }" style="background-color: #c8d8cd; "></span>
+               
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">INDOOR</div>
             </div>
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #b7c5c5; "></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">OUTDOOR</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.outdoor)+'px' }">{{data.dataMap.page12.outdoor}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.outdoor+'px' }" style="background-color: #b7c5c5; "></span>
+              
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">OUTDOOR</div>
             </div>
             <div class="clear-both"></div>
           </div>
@@ -110,20 +117,24 @@
         <div class="twelveth-page-sect25">
           <div class="perc-row">
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #f3aeb1;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">INDIVIDUAL</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.individual)+'px' }">{{data.dataMap.page12.individual}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.individual+'px' }" style="background-color: #f3aeb1;"></span>
+                
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">INDIVIDUAL</div>
             </div>
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #91cff4;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">TEAM</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.team)+'px' }">{{data.dataMap.page12.team}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.team+'px' }" style="background-color: #91cff4;"></span>
+              
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">TEAM</div>
             </div>
             <div class="clear-both"></div>
           </div>
@@ -133,23 +144,27 @@
           </div>
         </div>
 
-        <div class="twelveth-page-sect25" style="margin-right: 0;">
+        <div class="twelveth-page-sect25" style="margin-right: 2px;">
           <div class="perc-row">
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #b7c5c5;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">PHYSICALLY</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.physically)+'px' }">{{data.dataMap.page12.physically}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.physically+'px' }" style="background-color: #b7c5c5;"></span>
+                
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">PHYSICALLY</div>
             </div>
             <div class="perc-row-left">
-              <div class="perc-num">100%</div>
+              
               <div class="perc-bar-wrapper">
-                <span class="perc-bar" style="background-color: #8cc09a;"></span>
-                <div class="perc-bar-border"></div>
-                <div class="perc-bar-title">MENTALLY</div>
+                <div class="perc-num" [ngStyle]="{'bottom': convertString(data.dataMap.page12.mentally)+'px' }">{{data.dataMap.page12.mentally}}%</div>
+                <span class="perc-bar" [ngStyle]="{'height': data.dataMap.page12.mentally+'px' }" style="background-color: #8cc09a;"></span>
+                
               </div>
+              <div class="perc-bar-border"></div>
+              <div class="perc-bar-title">MENTALLY</div>
             </div>
             <div class="clear-both"></div>
           </div>
