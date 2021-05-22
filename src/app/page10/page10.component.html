@@ -3,11 +3,11 @@
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
 
-    <div class="text-center mt-22">
-        <img style="width: 40%;" src="assets/images/Page 5/Ages 12 &3 Img.png" >
+    <div class="text-center mt-10">
+        <img style="width: 60%;" src="assets/images/Page 10/page-10-head.jpg" >
     </div>
 
-    <div style="background-color: #e6e7e8;">
+    <div class="mt-20" style="background-color: #e6e7e8;">
         <div class="tenth-page-row">
           <div class="fifth-page-first-box" style="width: 2%;"><strong>Q</strong></div>
           <div class="fifth-page-first-box" style="width: 94%;"><strong>So now I am 5, What's next?</strong> </div>
@@ -63,22 +63,18 @@
 
     <div class="mt-20">
       <div class="tenth-page-cont1" style="width: 70%;">
-        <div class="tenth-page-cont12" ><strong>1</strong></div>
-        <div class="tenth-page-cont13" style="width: 90%; color: #00abc5; "><strong>YOU HAVE A GOOD UNDERSTANDING OF SOUND & PATTERNS & MUSIC</strong> </div>
+        <div class="tenth-page-cont12" ><strong>{{data.dataMap.page10.section1.rank}}</strong></div>
+        <div class="tenth-page-cont13" style="width: 90%; color: #00abc5; ">
+          <strong>{{data.dataMap.page10.section1.title}}</strong> </div>
         <div class="clear-both"></div>
         
         <div class="" style=" padding-bottom: 5px;">
          
-          <div class="tenth-page-fs23" style="width: 100%; ">
-            Your strength is your ability to be aural (auditory-musical-rhythmic). 
-            You can perceive sound in terms of its frequency, amplitude and timbre. You have an inbuilt understanding of melody, rhythm, pitch, and harmony. 
-            You are highly emotional and you can feel the pain of others.
-
+          <div class="tenth-page-fs23" style="width: 100%;">
+            {{data.dataMap.page10.section1.para1}}
           </div>
           <div class="tenth-page-fs23" style="width: 100%; padding-top: 5px; ">
-            You like to be surrounded by music and can appreciate different types of music and sounds. 
-            You may often be found humming or drumming out beats with your hands. You have good auditory memory and may respond well to jingles, rap and rhymes to help memorize. 
-            You may be avid collector of music and musical instruments.
+            {{data.dataMap.page10.section1.para2}}
          </div>
         </div>
       </div>
@@ -88,10 +84,7 @@
       </div>
       <div class="clear-both"></div>
       <div class="tenth-page-row" style="padding-top: 2px; padding-right: 10px;">
-        You may sing or play music professionally solo or in a group, band, choir, or orchestra. 
-        You can do tutoring in music, voice, or instruments. You may prefer working in music retail stores, 
-        composing music, song writing, music ministry in churches or community choirs, music reviewer, piano tuner, recording engineer etc. In medical and allied professions you can choose audiologist, speech language pathologist or technician, music therapist, and recreation therapist. 
-        You like working in video, social media, radio, television, film industry etc.
+        {{data.dataMap.page10.section1.para3}}
       </div>
     </div>
     
@@ -102,24 +95,9 @@
     <div class="tenth-page-subof">
       <div>
         <ul class="tenth-page-listsub">
-          <li>
-            <span>DJ' ing</span>
+          <li *ngFor="let subCategory of data.dataMap.page10.section1.interests?.split(';')">
+            {{ subCategory }}
           </li>
-          
-          <li>             
-            <span>Musical Instruments</span> 
-          </li>
-
-          <li>Singing/ Rapping/ Yodelling</li>
-          <li>Voice over/ dubbing</li>
-          <li>Music/ Melody Writing/ Composing</li>
-          <li>Live/ Karaoke performance</li>
-          <li>Sound mixing/ Recording</li>
-          <li>Song Sequencing</li>
-          <li>Acting</li>
-          <li>Social Service</li>
-          <li>Nursing</li>
-          <li>Volunteering</li>
 
           <div class="clear-both"></div>
         </ul>

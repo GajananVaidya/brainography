@@ -1,121 +1,138 @@
 .fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
-.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; }
-.sixteenth-page-fsize{font-size: 16px;}
-.mt-5{margin-top: 5px;}
+.sixteenth-page-headingsec{padding: 6px 5px; color: #ffffff; text-align: center; font-size: 13px; font-weight: 800; }
+.sixteenth-page-fsize{font-size: 16px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+.mt-5{margin-top: 4px;}
 .sixteenth-page-hd1 {  background-color: #1d2f81 }
 .sixteenth-page-careeroption{
     background-color: #959492;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
-    padding: 10px 0px;
+    /* float: left; */
+    /* width: 25.75%; */
+    padding: 3px 0px;
     border-right: 4px solid white;
     color: #ffffff;
+    flex: 4;
 }
 .sixteenth-page-careeroption1{
     background-color: #959492;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 6%;
-    padding: 10px 2px;
+    /* float: left; */
+    /* width: 6%; */
+    padding: 5px 2px;
     border-right: 4px solid white;
     color: #ffffff;
+    flex: 1;
 }
 .sixteenth-page-careerhuman{
     background-color: #a198c5;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
+    /* float: left; */
+    /* width: 25.75%; */
     padding: 10px 0px;
     border-right: 4px solid white;
     color: #ffffff;
+    flex: 4;
 }
 .sixteenth-page-careerhumanperc{
     background-color: #a198c5;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 6%;
+    /* float: left; */
+    /* width: 6%; */
     padding: 10px 2px;
     border-right: 4px solid white;
     color: #ffffff;
+    flex: 1;
 }
 .sixteenth-page-careergastro{
     background-color: #e7e7e7;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
+    /* float: left; */
+    /* width: 25.75%; */
     padding: 3px 0px;
     border-right: 4px solid white;
     color: black; 
+    flex: 4;
 }
 .sixteenth-page-careerbhms{
     background-color: #e7e7e7;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
+    /* float: left; */
+    /* width: 25.75%; */
     padding: 2px 0px;
     border-right: 4px solid white;
-    color: black;    
+    color: black;   
+    flex: 4; 
 }
 .sixteenth-page-careerplant{
     background-color: #a198c5;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
+    /* float: left; */
+    /* width: 25.75%; */
     padding: 10px 0px;
     border-right: 4px solid white;
-    color: black; 
+    color: white; 
+    flex: 4; 
 }
 .sixteenth-page-careerbams{
     background-color: #e7e7e7;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    float: left;
-    width: 25.75%;
+    /* float: left; */
+    /* width: 25.75%; */
     padding: 2px 0px;
     border-right: 4px solid white;
-    color: black;    
+    color: black;   
+    flex: 4;  
 }
 .sixteenth-page-careergastroperc{
     background-color: #e7e7e7;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-   float: left;
-    width: 6%;
+   /* float: left; */
+    /* width: 6%; */
     padding: 10px 2px;
     border-right: 4px solid white;
     color: black;
+    flex: 1;
 }
 .sixteenth-page-careerplant1{
     background-color: #a198c5;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    float: left;
-    width: 6%;
-    padding: 10px 0px;
-    border-right: 4px solid white;
-    color: black;
+    /* float: left; */
+    /* width: 6%; */
+    padding: 10px 2px;
+    /* border-right: 4px solid white; */
+    color: white;
+    flex: 1;
 }
 .sixteenth-page-pdlft5{
     padding-left: 5px;
 }
 
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    align-items: center; */
+    font-size: 11px;
+}
 
 

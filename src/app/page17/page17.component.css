@@ -1,21 +1,21 @@
 .fifthteenth-page{font-family: Arial, Helvetica, sans-serif; font-size: 11px;}
-.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; width: 100%; font-size: 16px; font-weight: 900;}
+.sixteenth-page-headingsec{float: left; padding: 6px 5px; color: #ffffff; text-align: center; width: 100%; font-size: 13px; font-weight: 900;}
 .sixteenth-page-fsize{font-size: 16px;}
-.mt-5{margin-top: 5px;}
+.mt-5{margin-top: 3px;}
 .seventeen-page-careerwidth32{ margin-right: 5px; flex: 1;}
 .seventeen-page-width79{ border-right: 5px solid white; flex: 7.5;}
 .sixteenth-page-hd1 {  background-color: #1d2f81 }
 .sixteenth-page-careeroption{
     background-color: #959492;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
     /* float: left; */
     /* width: 25.75%; */
-    padding: 5px 10px;
+    padding: 4px 10px;
     border-right: 5px solid white;
     color: #ffffff;
-    flex: 7;
+    flex: 8;
 }
 .sixteenth-page-careeroption1{
     background-color: #959492;

@@ -39,7 +39,7 @@
     padding: 10px;
     width: 25%;
     background-color:#ffffff;
-    border: 1px solid #d1d1d1;
+    /* border: 1px solid #d1d1d1; */
     box-shadow: 0px -1px 10px #b3b3b3;
     margin-right: 10px;
 }
@@ -113,10 +113,11 @@
 .perc-row-left { width: 50%;
     float: left;
     text-align: center; }
-.perc-bar { display: inline-block;
-    height: 80px;
-    width: 25px;}
-.perc-bar-wrapper { margin-top:2px; }
+.perc-bar { display: inline-block; width: 25px; position: absolute;
+    bottom: 4px;
+    left: 23px;}
+
+.perc-bar-wrapper { margin-top:2px; height: 120px; position: relative; }
 .perc-bar-border { border-top: 1px solid;
     position: relative;
     top: -4px;
@@ -124,5 +125,5 @@
     margin: 0 auto;
 }
 
-.perc-bar-title, .perc-num { font-size: 11px;
-    font-weight: bold; }
+.perc-bar-title { font-size: 11px; font-weight: bold; }
+.perc-num { font-size: 11px; font-weight: bold; position: absolute; left: 25px; }

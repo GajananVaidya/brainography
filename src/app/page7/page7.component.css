@@ -40,3 +40,7 @@
 
 .fifth-page-row { padding: 5px; font-size: 13.5px;  }
 .fifth-page-first-box { float: left; padding: 0 5px; }
+.ssc-bar { height:45px; width: 100%; background-color: #f3adb7; }
+.cbse-bar { height:45px; width: 100%; background-color: #87cac5; }
+.icse-bar { height:45px; width: 100%; background-color: #62bff0; }
+.igcse-bar { height:45px; width: 100%; background-color: #a098c4; }
