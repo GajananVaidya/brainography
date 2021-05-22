@@ -1,0 +1,54 @@
+.twentyth-page { font-family: Arial;  font-size: 14px;  text-align: justify; }
+.pad5{padding: 5px;}
+.pad-top{padding-top: 0px;}
+.twentyth-page-PQ{ color: #00abc0; font-size: 20px; font-weight: 800;}
+.twenty-page-sec{background-color: #ffffff; border: 1px solid #c1c1c0; border-radius: 10px; padding: 5px;}
+.mt-5{margin-top: 5px;}
+.mt-20 { margin-top: 20px; }
+.mt-18{ margin-top: 18px; }
+.mt-16{ margin-top: 16px; }
+.mt-22{ margin-top: 22px; }
+.paddtop23{ padding-top: 23px;}
+.txt-lft{text-align: left;}
+.mr-5{margin: 5px;}
+.padding5{padding: 5px 0px;}
+.emply-bar{display: inline-block; height: 85px; width: 27px; background-color: #f3adb7;}
+.twenty-page-sec{background-color: #ffffff; display: flex;}
+.employee-sec-width25{width: 25%; float: left; text-align: center;}
+.employee-title, .employee-num{font-size: 11px; font-weight: bold;}
+.emply-border{border-top: 1px solid; position: relative; top: -4px; width: 56%;  margin: 0 auto;}
+.mx-15 { margin-left: 15px; margin-right: 15px; }
+.mx-17 { margin-left: 17px; margin-right: 17px; }
+.mt-10 { margin-top: 10px; }
+.mt-2 { margin-top: 2px; }
+.mt-50 { margin-top: 50px; }
+.mt-40 { margin-top: 40px; }
+.ml-20 { margin-left: 20px; }
+.ml-40 { margin-left: 40px; }
+.clear-both { clear: both; }
+.logo-img { width: 120px; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.seventh-page-sec78{float: left; padding: 10px;}
+.seventh-page-first-box { 
+float: right; width: 12%; border: 1px solid #d1d1d1; 
+padding: 10px; box-shadow: 0px 0px 10px #b3b3b3; 
+margin-right: 5px;
+}
+.padd5{padding: 0px 5px;}
+.seventh-page-firstbx25{padding: 10px 0px; background-color: #fef3f1;  float: left;}
+.seventh-page-75 { padding: 0 10px!important; }
+.seventh-page-qns2{float: left; padding: 10px; }
+.seventh-page-fs20{padding: 8px 7px 5px 7px; float: left;}
+.seventh-page-fs21{padding: 8px 5px 5px 5px; float: left;}
+.seventh-page-fs22{padding: 5px 7px;float: left;}
+.seventh-page-fs23{padding: 5px 7px 10px 5px;float: left;}
+.seventh-page-gray-box { background-color: #e6e7e8; width: 82%; float: left; line-height: 18px; }
+.seventh-page-igcse { width: 47%; float: left; border-right: 1px solid; padding-right: 10px; margin-right: 8px; }
+.seventh-page-ib { width: 47%; float: right; }
+.twentyh-page-empl { padding-bottom: 7px; text-align: center;  margin-bottom: 7px; }
+
+
+
+.fifth-page-row { padding: 5px; font-size: 13.5px;  }
+.fifth-page-first-box { float: left; padding: 0 5px; }
