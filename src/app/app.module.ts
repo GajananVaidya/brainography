@@ -23,6 +23,7 @@ import { Page17Component } from './page17/page17.component';
 import { Page18Component } from './page18/page18.component';
 import { Page19Component } from './page19/page19.component';
 import { Page20Component } from './page20/page20.component';
+import { Page23Component } from './page23/page23.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { Page20Component } from './page20/page20.component';
     Page17Component,
     Page18Component,
     Page19Component,
-    Page20Component
+    Page20Component,
+    Page23Component
   ],
   imports: [
     BrowserModule
