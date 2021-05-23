@@ -1,0 +1,15 @@
+.twentyfirst-page { font-family: Arial; font-size: 14px;  text-align: justify; }
+.twentyth-page-PQ{ color: #00abc1; font-size: 20px; font-weight: 800;}
+.twentyth-page-section-heading { color: #00abc0; font-weight: 600;}
+.row-wrapper { display: flex; flex-wrap: wrap; margin-bottom: 5px; } 
+.column-one { flex: 5; background-color: #e7e7e7; margin-right:  10px; padding: 10px; }
+.column-two { flex: 1; background-color: #e7e7e7; padding: 10px; text-align: center; }
+.text-bold { font-weight: bold; }
+.mt-5 { margin-top: 5px; }
+.perc-col { font-weight: bold; padding: 5px 15px;}
+.content-section { flex: 1.5; }
+.graph-section { flex: 2; border: 1px solid #b9b9b9; margin-left: 20px; padding: 10px 10px 0; display: flex;  flex-wrap: wrap; }
+.bar-col { flex: 1; text-align: center; position: relative; }
+.bar { width: 40px; height: 112px; display: inline-block; position: absolute; left: 25px; bottom: 0; }
+.bar-index { position: absolute; bottom: 0; left: 10px; font-weight: 600; }
+.color-boxes { margin-top: 10px; padding: 5px 10px; }

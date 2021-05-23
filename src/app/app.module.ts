@@ -23,7 +23,11 @@ import { Page17Component } from './page17/page17.component';
 import { Page18Component } from './page18/page18.component';
 import { Page19Component } from './page19/page19.component';
 import { Page20Component } from './page20/page20.component';
+<<<<<<< HEAD
 import { Page23Component } from './page23/page23.component';
+=======
+import { Page21Component } from './page21/page21.component';
+>>>>>>> 6c31e52a37f76dd11ab5459e343a21256652bf92
 
 @NgModule({
   declarations: [
@@ -49,7 +53,11 @@ import { Page23Component } from './page23/page23.component';
     Page18Component,
     Page19Component,
     Page20Component,
+<<<<<<< HEAD
     Page23Component
+=======
+    Page21Component
+>>>>>>> 6c31e52a37f76dd11ab5459e343a21256652bf92
   ],
   imports: [
     BrowserModule
