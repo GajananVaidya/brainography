@@ -4,7 +4,6 @@
 .twenty-third-page-fs23{padding: 2px 0px; float: left; padding-left: 14px;}
 .twenty-fourth-page-sec { 
 width: 77%; 
-line-height: 25px; 
 font-size: 15px;
 background-color: #ffffff;  
 float: left;  
@@ -49,7 +48,7 @@ float: left;
 .mt-15{margin-top: 15px;}
 .twenty-fourth-page-Research{color: #00a9c1; font-weight: bold;  font-size: 20px; }
 .Research-analysis-sec{ padding: 10px 0px;}
-.Rsa-1{padding: 10px; line-height: 21px;}
+.Rsa-1{padding: 10px; line-height: 18px;}
 .grey-header{
     background-color: #5d5a59; 
     font-weight: bold; 
