@@ -1,0 +1,15 @@
+.twenty-sixth-page { font-family: Arial;   text-align: justify; }
+.twenty-nine-page-Research{color: #00a9c1; font-weight: bold;  font-size: 20px; padding-bottom: 7px;}
+.twenty-nine-page-sec{ background-color: #f2f2f2;}
+.twenty-nine-page-Rsa-1{padding: 5px 10px; line-height: 20px;}
+.mt-15{margin-top: 15px;}
+.twentyth-page-section-heading { color: #00abc0; font-weight: 600;}
+.twentyth-page-section-subheading { color: black; text-align: left!important; }
+.twenty-sixth-page-row-wrapper { display: flex; flex-wrap: wrap; margin-bottom: 5px; } 
+.twenty-sixth-page-column-one { flex: 1; background-color: #e7e7e7; margin-right:  10px; padding: 10px; text-align: center; }
+.twenty-sixth-page-column-two { flex: 1; background-color: #e7e7e7; padding: 10px; text-align: center; }
+.twenty-sixth-page-column-2nd { flex: 1; background-color: #e7e7e7; padding: 10px; text-align: left; }
+.text-bold { font-weight: bold; }
+.mt-5 { margin-top: 5px; }
+.twenty-sixth-page-perc-col { font-weight: bold; padding: 0px 15px;}
+.twenty-sixth-page-perc-col-1 { padding: 0px 15px;}

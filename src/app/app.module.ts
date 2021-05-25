@@ -27,6 +27,10 @@ import { Page21Component } from './page21/page21.component';
 import { Page22Component } from './page22/page22.component';
 import { Page23Component } from './page23/page23.component';
 import { Page24Component } from './page24/page24.component';
+import { Page27Component } from './page27/page27.component';
+import { Page28Component } from './page28/page28.component';
+import { Page29Component } from './page29/page29.component';
+import { Page26Component } from './page26/page26.component';
 
 
 @NgModule({
@@ -56,7 +60,11 @@ import { Page24Component } from './page24/page24.component';
     Page21Component,
     Page22Component,
     Page23Component,
-    Page24Component
+    Page24Component,
+    Page27Component,
+    Page28Component,
+    Page29Component,
+    Page26Component
   ],
   imports: [
     BrowserModule
