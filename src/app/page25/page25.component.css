@@ -1,0 +1,20 @@
+.flex-row { display: flex; flex-wrap: wrap; }
+.pink-section { flex: 1; margin-right:5px; font-size: 13px; }
+.mt-5 { margin-top: 5px; }
+.main-content {  width: 143%; text-align: justify; transform: translate(-16%, 22%) rotate(-90deg); }
+/* transform: translate(-16%, 23%) rotate(-90deg); */
+.pink-heading { flex: 1; background: #f4b9bf; padding: 5px; font-weight: bold; }
+.pink-perc { padding: 2px; background: #281475; color: white; font-weight: bold; }
+.pink-body { background: #fde9e8; padding: 5px; font-size: 10px; min-height: 130px; }
+
+.green-heading { flex: 1; background: #a5d5bb; padding: 5px; font-weight: bold; }
+.green-body { background: #e4f1e8; padding: 5px; font-size: 10px; min-height: 130px; }
+
+.blue-heading { flex: 1; background: #91cff4; padding: 5px; font-weight: bold; }
+.blue-body { background: #dbeefc; padding: 5px; font-size: 10px; min-height: 130px; }
+
+.purple-heading { flex: 1; background: #b9b1d6; padding: 5px; font-weight: bold; }
+.purple-body { background: #e4e0ef; padding: 5px; font-size: 10px; min-height: 130px; }
+
+.second-flex-row { flex: 1; }
+.second-flex-middle-row { flex: 4; }
