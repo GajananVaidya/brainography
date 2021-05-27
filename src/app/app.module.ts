@@ -32,6 +32,7 @@ import { Page28Component } from './page28/page28.component';
 import { Page29Component } from './page29/page29.component';
 import { Page26Component } from './page26/page26.component';
 import { Page25Component } from './page25/page25.component';
+import { Page30Component } from './page30/page30.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { Page25Component } from './page25/page25.component';
     Page28Component,
     Page29Component,
     Page26Component,
-    Page25Component
+    Page25Component,
+    Page30Component
   ],
   imports: [
     BrowserModule
