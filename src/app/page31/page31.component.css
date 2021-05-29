@@ -1,15 +1,16 @@
 .thirtyone-page { font-family: Arial; font-size: 14px; text-align: justify; }
-.emply-bar{display: inline-block; height: 223px; width: 27px; background-color: #f3adb7;}
+.emply-bar{display: inline-block; height: 194px; width: 34px; background-color: #f3adb7;}
 .thirtyone-page-sec{background-color: #ffffff; display: flex;}
-.employee-sec-width25{width: 49%; float: left; text-align: center;}
+.employee-sec-width25{width: 49%; float: left; text-align: center; margin-top: 25px;}
 .employee-title, .employee-num{font-size: 11px; font-weight: bold;}
-.emply-border{border-top: 1px solid; position: relative; top: -4px; width: 56%;  margin: 0 auto;}
+.emply-border{border-top: 1px solid; position: relative; top: -4px; width: 61%;  margin: 0 auto;}
 .thirtyone-page-sec-bx{
     background-color: #ffffff; 
     border: 1px solid #c1c1c0; 
     padding: 5px;
 }
 .mt-5{margin-top: 5px;}
+.pad-left10{padding-left: 10px;}
 .gry-bx{background: #706f6d;
     width: 5px;
     height: 5px;
@@ -17,11 +18,15 @@
     border-radius: 10px;
     vertical-align: middle;}
 .section-bx{display: inline-block; padding-left: 5px; vertical-align: middle;}
-.thirtyone-page-firstbx25{padding: 10px 5px;  background-color: #ededed;
+.thirtyone-page-firstbx25{
+    padding: 10px 10px;  
+    background-color: #ededed;
     width: 77%;
     float: left;
-    margin-right: 6px; }
-.thirtyone-page-heading{font-weight: bold; padding: 5px;}
+    margin-right: 10px; 
+}
+.thirtyone-page-main{color: #08a7c5; font-weight: bold;font-size: 20px; padding: 2px 9px;}
+.thirtyone-page-heading{font-weight: bold; padding: 5px 9px;}
 .twelveth-page-bluebx{
     padding-bottom: 5px;
     padding-top: 5px;
