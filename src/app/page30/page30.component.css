@@ -12,7 +12,7 @@
 .first-col-gray { text-align: center; margin-right: 5px; flex: .6; background: #dddddb; align-items: center; justify-content: center; display: flex; }
 .main-col { flex: 2; margin-right: 5px; }
 .main-col-gray { flex: 2; margin-right: 5px; background: #ededed; }
-.td-blue-heading { background: #1b3081; color: white; text-align: center; padding: 5px 0; font-size: 16px; }
+.td-blue-heading { background: #1b3081; color: white; text-align: center; padding: 5px 0; font-size: 16px; font-weight: bold; }
 .td-dark-gray { padding: 10px; font-weight: bold; }
 .td-gray {  padding: 10px;}
 
