@@ -28,7 +28,7 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    23.50% + X + R
+                    {{data.dataMap.page21.admin}}
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    23.50% + X + R
+                    {{data.dataMap.page21.planning}}
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    23.50% + X
+                    {{data.dataMap.page21.execution}}
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    23.50% + X
+                    {{data.dataMap.page21.correspondence}}
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    23.50% + X
+                    {{data.dataMap.page21.exploration}}
                 </div>
             </div>
         </div>
@@ -117,30 +117,30 @@
             </div>
             <div class="graph-section">
                 <div class="bar-col">
-                    <span class="text-bold">100%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.iq)+'px' }"> {{data.dataMap.page21.iq}}%</span>
                     <div></div>
-                    <div class="bar" style="background-color: #f3adb7;">
+                    <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.iq)+'px' }" style="background-color: #f3adb7;">
                         <div class="bar-index">IQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold">100%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.eq)+'px' }">{{data.dataMap.page21.eq}}%</span>
                     <div></div>
-                    <div class="bar" style="background-color: #95cfb0;">
+                    <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.eq)+'px' }" style="background-color: #95cfb0;">
                         <div class="bar-index">EQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold">100%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.aq)+'px' }">{{data.dataMap.page21.aq}}%</span>
                     <div></div>
-                    <div class="bar" style="background-color: #62bff0;">
+                    <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.aq)+'px' }" style="background-color: #62bff0;">
                         <div class="bar-index">AQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold">100%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.cq)+'px' }">{{data.dataMap.page21.cq}}%</span>
                     <div></div>
-                    <div class="bar" style="background-color: #a097c5;">
+                    <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.cq)+'px' }" style="background-color: #a097c5;">
                         <div class="bar-index">CQ</div>
                     </div>
                 </div>

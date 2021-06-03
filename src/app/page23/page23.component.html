@@ -3,25 +3,16 @@
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
     <div class="blue-header mt-20">
-        OWL (EXTREME)
+       {{ data.dataMap.page23.title }}
     </div>
     <div class="mt-20">
         <div class="twenty-third-page-cont1" style="width: 70%;">
             <div class="" style=" padding-bottom: 5px;">
                 <div class="twenty-third-page-fs23" style="width: 100%;">
-                    Owl (Extreme) conjures the vision of a wise, meticulous and a
-                    logical person. Curious by nature and motivated by knowledge & logic,
-                    they are perceived as methodical, mathematically minded, prudent & perfectionist.
-                    They are good at administration and possess a tendency to evaluate every minute detail
-                    critically before they execute their task. They are clinical, analytical, conservative,
-                    reserved & cautious.
+                    {{ data.dataMap.page23.para_1 }}
                 </div>
                 <div class="twenty-third-page-fs23" style="width: 100%; padding-top: 15px; ">
-                    On the downside, due to their perfectionist attitude they often become inflexible,
-                    taking forever to plan rather than execute. They need a structured environment
-                    with clearly defined processes to proceed. Owl (Extreme) cannot tolerate people who
-                    criticize or compare them with others. Their excessive critical evaluation creates
-                    more than two aims at the same time creating confusion for self- decisions.
+                    {{ data.dataMap.page23.para_2 }}
                 </div>
             </div>
         </div>
@@ -36,10 +27,13 @@
             <div class="twentythird-page-ext-char">COMMON CHARACTERISTICS</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20">
+            <div class="pd20" style="min-height: 125px;">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li>Well-organized & systematic. Will thrive in solving complex
+                        <li *ngFor="let item of data.dataMap.page23.common_characteristic">
+                            {{ item }}
+                        </li>
+                        <!-- <li>Well-organized & systematic. Will thrive in solving complex
                             problems through careful analysis.
                         </li>
                         <li>Will follow systems & clear processes. Like rules & procedures.
@@ -62,7 +56,7 @@
                         </li>
                         <li>Motivated by knowledge & expertise. Painstakingly detail
                             oriented. Adept at fault- finding & fault- fixing.
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -74,10 +68,13 @@
             <div class="twentythird-page-ext-char">CHALLENGES</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20">
+            <div class="pd20" style="min-height: 125px;">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li>Over- analytical. While being obsessive to focus too much
+                        <li *ngFor="let item of data.dataMap.page23.challenges">
+                            {{ item }}
+                        </li>
+                        <!-- <li>Over- analytical. While being obsessive to focus too much
                             on details, may lose sight of the 'Big picture'.
                         </li>
                         <li>Take too long to plan, trying to address every trivial issue,
@@ -100,7 +97,7 @@
                         </li>
                         <li>Prefer logic over feelings. Difficulty in changing opinions,
                             even if they experience conflict of conscious.
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -112,10 +109,13 @@
             <div class="twentythird-page-ext-char">REMEDIES</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20">
+            <div class="pd20" style="min-height: 125px;">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li>
+                        <li *ngFor="let item of data.dataMap.page23.remedies">
+                            {{ item }}
+                        </li>
+                        <!-- <li>
                             While focusing on the details, always keep an eye on your goal.
                             Never lose sight of your 'Big Picture'.
                         </li>
@@ -134,7 +134,7 @@
                         <li>
                             Don't get bogged down by failures. Analyse your mistakes &
                             use this knowledge for the next attempt.
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

@@ -7,12 +7,13 @@
         <img style="width: 40%;" src="assets/images/Page 14/PAGE-14Age13to15.jpg">
       </div>
       
-      <div class="" style="background-color: #e6e7e8!important;">
+       <div class="" style="background-color: #e6e7e8!important;">
           <div class="fourteenth-page-row">
             <div class="fourteenth-page-first-box" style="width: 2%;"><strong>Q</strong></div>
             <div class="fourteenth-page-first-box" style="width: 90%;"><strong>Which is My Most Preferred Stream after Grade 10th ?</strong> </div>
             <div class="clear-both"></div>
           </div>
+          <div class="clear-both"></div>
         </div>
   
       <div class="mt-20">
@@ -28,11 +29,14 @@
   
         <div class="fourteenth-page-first-bx45" >
           <div class="fourteenth-page-fs1" >
-            <div style="height:45px; width: 100%; background-color: #f5b9be;"></div>
+            <div style="height:45px; width: 100%; background-color: #f5b9be; float: left;" 
+              [ngStyle]="{'width': data.dataMap.page14.arts+'%' }"></div>
+            <div class="fourteenth-page-perc" [ngStyle]="{'left': data.dataMap.page14.arts+'%' }">
+              {{data.dataMap.page14.arts}}%
+            </div>
+            <div class="clear-both"></div>
           </div>
-          <div class="fourteenth-page-perc">
-            99%
-         </div>
+          
           <div class="clear-both"></div>
         </div>
         <div class="clear-both"></div>
@@ -50,18 +54,18 @@
   
         <div class="fourteenth-page-first-bx45" >
           <div class="fourteenth-page-fs1" >
-            <div style="height:45px; width: 100%; background-color: #95cfb0;"></div>
+            <div style="height:45px; width: 100%; float: left; background-color: #95cfb0;" [ngStyle]="{'width': data.dataMap.page14.com+'%' }"></div>
+            <div class="fourteenth-page-perc" [ngStyle]="{'left': data.dataMap.page14.com+'%' }">
+              {{data.dataMap.page14.com}}%
+            </div>
+            <div class="clear-both"></div>
           </div>
-  
-          <div class="fourteenth-page-perc">
-            99% 
-            
-         </div>
+          
          <div class="clear-both"></div>
         </div>
         <div class="clear-both"></div>
       </div>
-  
+
       <div class="mt-20">
         <div class="fourteenth-page-firstbx25" >
           <div class="" style="padding: 0px 5px;">
@@ -74,18 +78,19 @@
   
         <div class="fourteenth-page-first-bx45" >
           <div class="fourteenth-page-fs1" >
-            <div style="height:45px; width: 100%; background-color: #40b6ed;"></div>
+            <div style="height:45px; float: left; width: 100%; background-color: #40b6ed;" [ngStyle]="{'width': data.dataMap.page14.math_sci+'%' }"></div>
+            <div class="fourteenth-page-perc" [ngStyle]="{'left': data.dataMap.page14.math_sci+'%' }">
+              {{data.dataMap.page14.math_sci}}%
+            </div>
+            <div class="clear-both"></div>
           </div>
-  
-          <div class="fourteenth-page-perc">
-            99%
-         </div>
 
          <div class="clear-both"></div>
         </div>
         <div class="clear-both"></div>
       </div>
-
+      
+     
       <div class="mt-20">
           <div class="fourteenth-page-firstbx25" >
             <div class="" style="padding: 0px 5px;">
@@ -93,18 +98,19 @@
               <div>Natural science concerned with the study of Living organisms including their structure, 
               Function, Growth, Origin, Evolution, Taxonomy, etc. For students who like to pursue 
               studies in the field of Medicine, Genetic Engineering, Physiotherapy, Bio technology, Zoology, Botany etc.</div>
-            </div>       
+            </div>    
+            <div class="clear-both"></div>
           </div>
     
           <div class="fourteenth-page-first-bx45" >
             <div class="fourteenth-page-fs1" >
-              <div style="height:45px; width: 100%; background-color: #a097c5;"></div>
+              <div style="height:45px; float: left; width: 100%; background-color: #a097c5;" [ngStyle]="{'width': data.dataMap.page14.bio_sci+'%' }"></div>
+              <div class="fourteenth-page-perc" [ngStyle]="{'left': data.dataMap.page14.bio_sci+'%' }">
+                {{data.dataMap.page14.bio_sci}}%
+             </div>
+             <div class="clear-both"></div>
             </div>
     
-            <div class="fourteenth-page-perc">
-              99%
-           </div>
-
            <div class="clear-both"></div>
           </div>
           <div class="clear-both"></div>
@@ -128,6 +134,7 @@
           </div>
           <div class="clear-both"></div>
         </div>
+        <div class="clear-both"></div>
       </div>
       
       

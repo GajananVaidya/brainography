@@ -61,7 +61,7 @@
         <div class="flex-col" style="margin-right: 10px;">
             <div class="dominant-bg mt-20">
                 <div class="text-center">
-                    <input type="checkbox" /> 
+                    <input type="checkbox" value="1" [attr.checked]="data.dataMap.page22.outer == '1' ? true : null "  /> 
                     <span class="text-bold">DOMINANT</span>
                 </div>
                 <div class="text-center">
@@ -90,7 +90,7 @@
 
             <div class="compliant-bg mt-10">
                 <div class="text-center">
-                    <input type="checkbox" /> 
+                    <input type="checkbox" value="3" [attr.checked]="data.dataMap.page22.outer == '3' ? true : null " /> 
                     <span class="text-bold">COMPLIANT</span>
                 </div>
                 <div class="text-center">
@@ -124,7 +124,7 @@
         <div class="flex-col" style="margin-left: 10px;">
             <div class="influential-bg mt-20">
                 <div class="text-center">
-                    <input type="checkbox" /> 
+                    <input type="checkbox" value="2" [attr.checked]="data.dataMap.page22.outer == '2' ? true : null "/> 
                     <span class="text-bold">INFLUENTIAL</span>
                 </div>
                 <div class="text-center">
@@ -152,7 +152,7 @@
 
             <div class="steady-bg mt-10">
                 <div class="text-center">
-                    <input type="checkbox" /> 
+                    <input type="checkbox" value="4" [attr.checked]="data.dataMap.page22.outer == '4' ? true : null "/> 
                     <span class="text-bold">STEADY</span>
                 </div>
                 <div class="text-center">
@@ -187,21 +187,29 @@
             <div class="flex-row">
                 <div class="float-left" >
                     <div class="flex-col-head">EXTREME</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '1' && data.dataMap.page22.outer_sub == '1'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">PROMINANT</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '1' && data.dataMap.page22.outer_sub == '2'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">MODERATE</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '1' && data.dataMap.page22.outer_sub == '3'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">MARGINAL</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '1' && data.dataMap.page22.outer_sub == '4'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -224,21 +232,29 @@
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">EXTREME</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '2' && data.dataMap.page22.outer_sub == '1'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">PROMINANT</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '2' && data.dataMap.page22.outer_sub == '2'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">MODERATE</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '2' && data.dataMap.page22.outer_sub == '3'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">MARGINAL</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '2' && data.dataMap.page22.outer_sub == '4'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,21 +265,29 @@
             <div class="flex-row">
                 <div class="float-left" >
                     <div class="flex-col-head">EXTREME</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '3' && data.dataMap.page22.outer_sub == '1'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">PROMINANT</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '3' && data.dataMap.page22.outer_sub == '2'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">MODERATE</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '3' && data.dataMap.page22.outer_sub == '3'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">MARGINAL</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '3' && data.dataMap.page22.outer_sub == '4'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -286,21 +310,29 @@
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">EXTREME</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '4' && data.dataMap.page22.outer_sub == '1'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">PROMINANT</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '4' && data.dataMap.page22.outer_sub == '2'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
             <div class="flex-row">
                 <div class="float-left">
                     <div class="flex-col-head">MODERATE</div>
-                    <div class="flex-col-body"></div>
+                    <div class="flex-col-body">
+                        <img *ngIf="data.dataMap.page22.outer == '4' && data.dataMap.page22.outer_sub == '3'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
                 <div class="float-left">
                     <div class="flex-col-head">MARGINAL</div>
-                    <div class="flex-col-body" style="border-left:0"></div>
+                    <div class="flex-col-body" style="border-left:0">
+                        <img *ngIf="data.dataMap.page22.outer == '4' && data.dataMap.page22.outer_sub == '4'" src="assets/images/Page 22/tick.jpg" />
+                    </div>
                 </div>
             </div>
         </div>
