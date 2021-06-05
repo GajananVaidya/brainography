@@ -1,0 +1,82 @@
+.thirty-three-page { font-family: Arial; font-size: 14px; text-align: justify; }
+.thirty-three-page-row { padding: 5px 0; }
+.thirty-three-page-first-box { float: left; padding: 0 5px; }
+.thirty-three-page-fs23{
+    padding: 2px 0px;  
+    padding-bottom: 20px; 
+    float: left; 
+    padding-left: 14px;  
+    width: 96%; 
+    line-height: 20px; }
+.thirty-three-page-ipr{
+    padding: 8px 0px; float: left; 
+    padding-left: 14px;
+    width: 96%; 
+    background-color: #d4d4de;
+    color: black;
+    font-weight: bold;
+}
+.pad-top{padding-top: 5px;}
+.thirty-three-page-line-height{ line-height: 20px; padding-bottom: 15px;}
+.thirty-three-page-cont1 {width: 68%; float: left; color: #ffffff;}
+.thirty-three-page-first-box { float: right; width: 26%;}
+.thirty-three-page-blue-header{
+    padding-top: 10px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #282961;
+    text-align: center;
+    font-size: 20px;
+}
+.purple-header{
+    background-color: #8d85b8;
+    text-align: center;
+    font-size: 15px; 
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+}
+.IIL-sec{padding: 20px 10px 7px; font-weight: bold;}
+.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px;}
+.tbl-bx{border: 1px solid #8a89ab; flex: 1; border-collapse: collapse; background-color: #dcddef; }
+.thirty-three-page-section-heading { 
+    color: #16398d; 
+    font-weight: 600; 
+    font-size: 16px;
+    flex: 1;  padding: 5px; 
+    padding-left: 48px; 
+    border-bottom: 1px solid #8a89ab; 
+} 
+.thirty-three-page-row-wrapper { display: flex; flex-wrap: wrap; } 
+.thirty-three-page-column-one { flex: 1;  font-size: 10px; border-bottom: 1px solid #8a89ab;}
+.thirty-three-page-column-two { flex: 1;   font-size: 10px; border-bottom: 1px solid #8a89ab; }
+.thirty-three-page-column-2nd { flex: 1; padding: 5px; text-align: left; border-bottom: 1px solid #8a89ab; }
+.IIL-bg{background-color: #dcddef;}
+.mt-20{margin-top: 20px;}
+.thirty-three-page-list-color-disc{
+    margin-top: 7px;
+    list-style-type: none;
+    text-align: center;
+    padding: 2px 0px;
+}
+.thirty-three-page-list-color-disc li{
+    margin: 15px 0;
+}
+.thirty-three-page-list{
+    margin-left: 2%;
+    line-height: 13px;
+    font-size: 11px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.thirty-three-page-list-IIL{
+    padding-left: 34px;
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 1px;
+    margin-bottom: 3px;  
+}
+.pd20{padding: 0px 20px;}
+.mt-5{margin-top: 5px;}
+
