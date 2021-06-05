@@ -73,7 +73,7 @@ export class AppComponent {
             "section1": {
               "rank": "1",
               "title": "YOU HAVE A GOOD UNDERSTANDING OF SOUND",
-              "image": null,
+              "image": "assets/images/Page 10/Page-10-img1.jpg",
               "para1": "Your strength is your ability to be aural (auditory-musical-rhythmic). You can perceive sound in terms of its frequency, amplitude and timbre. You have an inbuilt understanding of melody, rhythm, pitch, and harmony. You are highly emotional and you can feel the pain of others.",
               "para2": "You like to be surrounded by music and can appreciate different types of music and sounds. You may often be found humming or drumming out beats with your hands. You have good auditory memory and may respond well to jingles, rap and rhymes to help memorize. You may be Music Festival Background avid collector of music and musical instruments.",
               "para3": "You may sing or play music professionally solo or in a group, band, choir, or orchestra. You can do tutoring in music, voice, or instruments. You may prefer working in music retail stores, composing music, song writing, music ministry in churches or community choirs, music reviewer, piano tuner, recording engineer etc. In medical and allied professions you can choose audiologist, speech language pathologist or technician, music therapist, and recreation therapist. You like working in video, soci",
@@ -82,7 +82,7 @@ export class AppComponent {
             "section2": {
               "rank": "2",
               "title": "YOU HAVE A VERY GOOD UNDERSTANDING OF SPOKEN LANGUAGES",
-              "image": null,
+              "image": "assets/images/Page 10/PAGE-11-img1.jpg",
               "para1": "Your strength is your communication and correspondence. You express yourself well. You are also a good listener with a well-developed memory for the material you have read and recall of spoken information. You like quizzes that require the ability to quickly and accurately respond to spoken or written instructions.",
               "para2": "You may have fascination for learning new languages, memorizing tongue twisters, reading and exploring ways to creatively use language. Although linguistic ability is not a synonym for intelligence or grammar, you can still easily outsmart by using language power. You enjoy crosswords, scrabble and different word games.",
               "para3": "You may like jobs which includes language arts, public speaking, drama, and debate. You will be attracted towards different styles of writing such as, content writing, blog writing, script writing, translation, song writing, dialogue writing, language based jokes and stories etc. You may be drawn to choose careers such as language teacher, professional writer, news correspondent, poet, attorney, publicist, journalism, advertising agent, psychologist, speech pathologist, anchor, motivational spea",
@@ -91,7 +91,7 @@ export class AppComponent {
             "section3": {
               "rank": "3",
               "title": "YOU ARE PRECISE WITH YOUR FINGERS & FACIAL EXPRESSIONS",
-              "image": null,
+              "image": "assets/images/Page 10/PAGE-11-img1.jpg",
               "para1": "Your strength is in your precise control over your fine and micro muscular movements. You like to explore all the finger based activities. You can easily perform delicate and feather touch tasks as well as tasks which require strong gripping.",
               "para2": "Along with profound dexterity, you also have an excellent hand-eye co- ordination and a very good control over your facial expressions. You learn from experience or from your own mistakes. You always have an urge to keep your fingers busy by scribbling or tapping a rhythm on desk by fingers while concentrating in a lecture.",
               "para3": "With strong Fine Motors, there are lot of possibilities. You can excel in various fields which are directly involved with facial expressions or your fingers. You can become a sports person. You may try carom, dart, snooker or all the racket based sports or become a bowler (spinner/ swinger). You can explore any musical instrument which requires fingers to play or be an artist of any form. You can also build your career in all the general precision based tasks such as repairing, surgery. non- fir",
@@ -487,7 +487,7 @@ export class AppComponent {
             "title": "EAGLE(MODERATE)",
             "para_1": null,
             "para_2": null,
-            "image": null,
+            "image": "assets/images/Page 23/PAGE-23-Outer-personality-1-out-of-16.jpg",
             "common_characteristic": [
               "ABC",
               "DEF"
@@ -547,7 +547,7 @@ export class AppComponent {
           "page30": {
             "left_brain": "46.80",
             "right_brain": "53.20",
-            "image": "right_dominant"
+            "image": "assets/images/Page 30/PAGE-30.1.png"
           },
           "page31": {
             "introvert": "53",
@@ -676,7 +676,6 @@ export class AppComponent {
   
   ngOnInit() {
     this.data = this.response.data;
-    console.log(this.data);
   }
 
 }
