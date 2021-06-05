@@ -41,31 +41,31 @@
           <div class="bx-row">
               <div class="twenty-page-sec">
                   <div class="employee-sec-width25">
-                      <div class="employee-num">50.00%</div>
-                      <span class="emply-bar"></span>
+                      <div class="employee-num" [ngStyle]="{'bottom': getBottom(data.dataMap.page20.emp)+'px' }">{{data.dataMap.page20.emp}}%</div>
+                      <span class="emply-bar" [ngStyle]="{'height': getHeight(data.dataMap.page20.emp)+'px' }"></span>
                       <div class="emply-border"></div>
                       <div class="employee-title">Employee</div>
                       <div class="clear-both"></div>
                   </div>
                   <div class="employee-sec-width25">
-                    <div class="employee-num">50.00%</div>
-                    <span class="emply-bar" style="background-color: #87cac5;"></span>
+                    <div class="employee-num" [ngStyle]="{'bottom': getBottom(data.dataMap.page20.self_emp)+'px' }">{{data.dataMap.page20.self_emp}}%</div>
+                    <span class="emply-bar" [ngStyle]="{'height': getHeight(data.dataMap.page20.self_emp)+'px' }" style="background-color: #87cac5;"></span>
                     <div class="emply-border"></div>
-                    <div class="employee-title">Self Employeed</div>
+                    <div class="employee-title" style="left: 30%;">Self Employeed</div>
                     <div class="clear-both"></div>
                 </div>
                 <div class="employee-sec-width25">
-                    <div class="employee-num">50.00%</div>
-                    <span class="emply-bar" style="background-color: #62bff0;"></span>
+                    <div class="employee-num" [ngStyle]="{'bottom': getBottom(data.dataMap.page20.inv)+'px' }">{{data.dataMap.page20.inv}}%</div>
+                    <span class="emply-bar" [ngStyle]="{'height': getHeight(data.dataMap.page20.inv)+'px' }" style="background-color: #62bff0;"></span>
                     <div class="emply-border"></div>
                     <div class="employee-title">Investor</div>
                     <div class="clear-both"></div>
                 </div>
                 <div class="employee-sec-width25">
-                    <div class="employee-num">50.00%</div>
-                    <span class="emply-bar" style="background-color: #a097c5;"></span>
+                    <div class="employee-num" [ngStyle]="{'bottom': getBottom(data.dataMap.page20.bo)+'px' }">{{data.dataMap.page20.bo}}%</div>
+                    <span class="emply-bar" [ngStyle]="{'height': getHeight(data.dataMap.page20.bo)+'px' }" style="background-color: #a097c5;"></span>
                     <div class="emply-border"></div>
-                    <div class="employee-title">Business Owner</div>
+                    <div class="employee-title" style="left: 31%;">Business Owner</div>
                     <div class="clear-both"></div>
                 </div>
               </div>

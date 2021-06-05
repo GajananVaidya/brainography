@@ -13,3 +13,5 @@
 .bar { width: 40px; height: 112px; display: inline-block; position: absolute; left: 25px; bottom: 0; }
 .bar-index { position: absolute; bottom: 0; left: 10px; font-weight: 600; }
 .color-boxes { margin-top: 10px; padding: 5px 10px; }
+
+.bar-col span.text-bold { position: absolute; left: 25%; }

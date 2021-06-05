@@ -12,4 +12,8 @@ export class Page7Component implements OnInit {
   ngOnInit(): void {
   }
 
+  minusTen(val: any) {
+    return parseInt(val)+2;
+  }
+
 }

@@ -20,7 +20,7 @@
 .seventh-page-fs1{ font-size: 15px; float: left;}
 .seventh-page-fs2{float: left;font-size: 15px; padding: 5px 5px 5px 7px;}
 .seventh-page-fs3{ float: left;   padding: 5px 16px 8px 5px;}
-.seventh-page-first-bx45{border: 1px solid #d2d2d2; position: relative;float: right; padding: 55px 0px 55px 0px;}
+.seventh-page-first-bx45{border: 1px solid #d2d2d2; position: relative;float: right; padding: 55px 0px 100px 0px;}
 .seventh-page-first-box { float: right; width: 29%;}
 .seventh-page-firstbx25{padding: 10px 5px; height: 137px; overflow: hidden;}
 .seventh-page-75 { padding: 0 10px!important; }
@@ -40,7 +40,8 @@
 
 .fifth-page-row { padding: 5px; font-size: 13.5px;  }
 .fifth-page-first-box { float: left; padding: 0 5px; }
-.ssc-bar { height:45px; width: 100%; background-color: #f3adb7; }
-.cbse-bar { height:45px; width: 100%; background-color: #87cac5; }
-.icse-bar { height:45px; width: 100%; background-color: #62bff0; }
-.igcse-bar { height:45px; width: 100%; background-color: #a098c4; }
+.ssc-bar { height:45px; float: left; background-color: #f3adb7; position: absolute; }
+.cbse-bar { height:45px; float: left; background-color: #87cac5; position: absolute; }
+.icse-bar { height:45px; float: left; background-color: #62bff0; position: absolute; }
+.igcse-bar { height:45px; float: left; background-color: #a098c4; position: absolute; }
+.seventh-page-fs1 { position: relative; }

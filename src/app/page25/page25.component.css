@@ -1,5 +1,5 @@
 .flex-row { display: flex; flex-wrap: wrap; }
-.pink-section { flex: 1; margin-right:5px; font-size: 13px; }
+.pink-section { flex: 1; margin-right:5px; font-size: 12px; }
 .mt-5 { margin-top: 5px; }
 .main-content {  width: 143%; text-align: justify; transform: translate(-16%, 22%) rotate(-90deg); }
 /* transform: translate(-16%, 23%) rotate(-90deg); */

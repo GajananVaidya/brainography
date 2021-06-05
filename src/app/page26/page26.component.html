@@ -3,7 +3,7 @@
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
     <div class="blue-header mt-10">
-        PRAGMATIST (REGULATORS FAMILY)
+        {{ data.dataMap.page26_29.main_title }}
     </div>
 
     <div class="flex-row mt-10">
@@ -131,28 +131,17 @@
 
     <div class="mt-20">
         <div class="twenty-nine-page-sec" style="padding: 15px 15px 25px;">
-            <div class="text-center twenty-nine-page-Research">PRAGMATIST INTRODUCTION</div>
+            <div class="text-center twenty-nine-page-Research">{{ data.dataMap.page26_29.intro_title }}</div>
             <div class="twenty-nine-page-Rsa-1">
-                As the title depicts PRAGMATISTS are the most practical, responsible, and dedicated
-                personalities. Falling under the REGULATOR family they are very loyal towards their duties and
-                take pride in fulfilling the responsibility they have chosen. PRAGMATISTS are fact-driven
-                individuals who hate making assumptions. They are methodical to the core and prefer to analyze
-                the facts and statistics before committing themselves to any assignment. Once they undertake a
-                task, they work with timeless dedication, often scarifying their personal time and resources to
-                fulfill the obligation. Unfortunately for PRAGMATISTS, their wholehearted dedication sometimes
-                becomes more of a liability than an asset. They may be vulnerable to manipulation because of
-                this quality. People who know their nature, may sometimes cunningly or diplomatically shift
-                their responsibilities or workload onto them knowing that they will invariably take up the
-                slack. Nevertheless, on the brighter side PRAGMATISTS are also genuinely appreciated and
-                complimented by their friends and colleagues for the stabilizing role they play. For PRAGMATISTS
-                those are the priceless moments they strive for.
+                {{ data.dataMap.page26_29.intro_para }}
+                
             </div>
         </div>
         <div class="clear-both"></div>
     </div>
-    <div class="mt-10">
+    <div class="mt-20">
         <div class="twenty-sixth-page-row-wrapper">
-            <div class="twentyth-page-section-heading" style="margin-right: 10px;">
+            <div class="twentyth-page-section-heading" style="margin-right: 5px;">
                 PROS
             </div>
             
@@ -163,86 +152,20 @@
         </div>
         <div class="clear-both"></div>
     </div>
-    <div class="mt-10">
+    <div class="mt-5">
         <div class="twenty-sixth-page-row-wrapper">
             <div class="twenty-sixth-page-column-one">
-                <div class="twentyth-page-section-subheading">
-                    Honest, loyal, dutiful & responsible. Extremely dedicated 
-                    & determined regarding their
-                    duties towards self & others.
+                <div *ngFor="let item of data.dataMap.page26_29.pros" class="twentyth-page-section-subheading">
+                   {{ item }}
                 </div>
             </div>
             <div class="twenty-sixth-page-column-two">
-                <div class="twentyth-page-section-subheading">
-                    Too traditional, often to the extent of being orthodox 
-                   (reluctant to bend the rules).
+                <div *ngFor="let item of data.dataMap.page26_29.cons" class="twentyth-page-section-subheading">
+                    {{ item }}
                 </div>
             </div>
         </div>
         <div class="clear-both"></div>
     </div>
 
-    <div class="mt-10">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twenty-sixth-page-column-one">
-                <span class="twentyth-page-section-subheading">
-                    Highly precise, systematic, stable & practical. Repositories of structured & orderly methods. 
-                </span>
-            </div>
-            <div class="twenty-sixth-page-column-two">
-                <span class="twentyth-page-section-subheading">
-                    Insensitive to consider emotions, naturally less receptive to the feeling of others. 
-                </span>
-            </div>
-        </div>
-        <div class="clear-both"></div>
-    </div>
-
-    <div class="mt-10">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twenty-sixth-page-column-one">
-                <span class="twentyth-page-section-subheading">
-                    Task-oriented. Able to accomplish objectives by applying logical & rational thinking. 
-                </span>
-            </div>
-            <div class="twenty-sixth-page-column-two">
-                <span class="twentyth-page-section-subheading">
-                    At times gives importance only to the facts based on their own perspectives. Becomes stubborn and judgmental. 
-                </span>
-            </div>
-        </div>
-        <div class="clear-both"></div>
-    </div>
-
-    <div class="mt-10">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twenty-sixth-page-column-one">
-                <span class="twentyth-page-section-subheading">
-                    Significantly observant. Initiates with utmost clarity with nothing taken for granted. 
-                </span>
-            </div>
-            <div class="twenty-sixth-page-column-two">
-                <span class="twentyth-page-section-subheading">
-                    Very reserved. Difficult in working with teams if their methods are questioned. Their mantra "My way or the highway". 
-                </span>
-            </div>
-        </div>
-        <div class="clear-both"></div>
-    </div>
-
-    <div class="mt-10">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twenty-sixth-page-column-one">
-                <span class="twentyth-page-section-subheading">
-                    Family and community-oriented. Values freedom, regulations & conservations. 
-                </span>
-            </div>
-            <div class="twenty-sixth-page-column-two">
-                <span class="twentyth-page-section-subheading">
-                    Requires stability and security to be optimal. Intolerant to laziness & indecisiveness. 
-                </span>
-            </div>
-        </div>
-        <div class="clear-both"></div>
-    </div>
 </div>
