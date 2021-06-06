@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-page32',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page32.component.css']
 })
 export class Page32Component implements OnInit {
-
+  @Input() data: any;
   constructor() { }
 
   ngOnInit(): void {

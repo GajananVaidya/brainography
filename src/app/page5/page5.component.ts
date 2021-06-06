@@ -10,7 +10,6 @@ export class Page5Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.data);
   }
 
 }

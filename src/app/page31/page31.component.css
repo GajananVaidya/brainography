@@ -1,14 +1,15 @@
 .thirtyone-page { font-family: Arial; font-size: 14px; text-align: justify; }
 .emply-bar{display: inline-block; height: 194px; width: 34px; background-color: #f3adb7;}
 .thirtyone-page-sec{background-color: #ffffff; display: flex;}
-.employee-sec-width25{width: 49%; float: left; text-align: center; margin-top: 25px;}
+.employee-sec-width25{width: 49%; float: left; text-align: center; margin-top: 25px; position: absolute; bottom: 30px;}
 .employee-title, .employee-num{font-size: 11px; font-weight: bold;}
 .employee-num { margin-bottom: 5px; font-size: 14px; }
 .emply-border{border-top: 1px solid; position: relative; top: -4px; width: 61%;  margin: 0 auto;}
+.employee-sec-width25:nth-child(even) { left: 50%; }
 .thirtyone-page-sec-bx{
     background-color: #ffffff; 
     border: 1px solid #c1c1c0; 
-    padding: 5px;
+    padding: 5px; position: relative;
 }
 .mt-5{margin-top: 5px;}
 .pad-left10{padding-left: 10px;}

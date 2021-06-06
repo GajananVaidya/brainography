@@ -36,12 +36,19 @@
                     R1
                 </div>
                 <div class="text-center">
-                    <div class="round-rank">1</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[0].colorCode">
+                        {{ data.dataMap.page32.reportDtl[0].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00%<br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[0].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[0].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[0].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[0].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        ALP
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[0].isReverse != 'NO' && data.dataMap.page32.reportDtl[0].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[0].fpp }}
                     </div>
                 </div>
             </div>
@@ -86,12 +93,19 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="round-rank">2</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[5].colorCode">
+                        {{ data.dataMap.page32.reportDtl[5].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00% <br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[5].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[5].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[5].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[5].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        ASFR
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[5].isReverse != 'NO' && data.dataMap.page32.reportDtl[5].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[5].fpp }}
                     </div>
                 </div>
 
@@ -106,12 +120,19 @@
                     R2
                 </div>
                 <div class="text-center">
-                    <div class="round-rank" style="background: #00923d;">3</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[1].colorCode">
+                        {{ data.dataMap.page32.reportDtl[1].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00%<br/> + R
+                        <span *ngIf="data.dataMap.page32.reportDtl[1].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[1].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[1].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[1].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        WT
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[1].isReverse != 'NO' && data.dataMap.page32.reportDtl[1].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[1].fpp }}
                     </div>
                 </div>
             </div>
@@ -156,12 +177,19 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="round-rank" style="background: #00923d;">4</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[6].colorCode">
+                        {{ data.dataMap.page32.reportDtl[6].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00% <br/> + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[6].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[6].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[6].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[6].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        WDR
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[6].isReverse != 'NO' && data.dataMap.page32.reportDtl[6].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[6].fpp }}
                     </div>
                 </div>
 
@@ -176,12 +204,19 @@
                     R3
                 </div>
                 <div class="text-center">
-                    <div class="round-rank" style="background: #08aac1;">5</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[2].colorCode">
+                        {{ data.dataMap.page32.reportDtl[2].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00%<br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[2].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[2].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[2].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[2].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        WDL
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[2].isReverse != 'NO' && data.dataMap.page32.reportDtl[2].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[2].fpp }}
                     </div>
                 </div>
             </div>
@@ -226,12 +261,19 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="round-rank" style="background: #08aac1;">6</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[7].colorCode">
+                        {{ data.dataMap.page32.reportDtl[7].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00% <br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[7].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[7].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[7].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[7].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        WCR
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[7].isReverse != 'NO' && data.dataMap.page32.reportDtl[7].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[7].fpp }}
                     </div>
                 </div>
 
@@ -246,12 +288,19 @@
                     R4
                 </div>
                 <div class="text-center">
-                    <div class="round-rank" style="background: #143886;">7</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[3].colorCode">
+                        {{ data.dataMap.page32.reportDtl[3].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00%<br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[3].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[3].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[3].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[3].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        LLP
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[3].isReverse != 'NO' && data.dataMap.page32.reportDtl[3].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[3].fpp }}
                     </div>
                 </div>
             </div>
@@ -296,12 +345,19 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="round-rank" style="background: #143886;">8</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[8].colorCode">
+                        {{ data.dataMap.page32.reportDtl[8].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00% <br/> + R + B
+                        <span *ngIf="data.dataMap.page32.reportDtl[8].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[8].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[8].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[8].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-10 pink-box">
-                        LFR
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[8].isReverse != 'NO' && data.dataMap.page32.reportDtl[8].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[8].fpp }}
                     </div>
                 </div>
 
@@ -316,12 +372,19 @@
                     R5
                 </div>
                 <div class="text-center">
-                    <div class="round-rank" style="background: #da2419;">9</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[4].colorCode">
+                        {{ data.dataMap.page32.reportDtl[4].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00%<br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[4].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[4].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[4].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[4].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-20 pink-box">
-                        U
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[4].isReverse != 'NO' && data.dataMap.page32.reportDtl[4].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[3].fpp }}
                     </div>
                 </div>
             </div>
@@ -366,12 +429,19 @@
                 </div>
 
                 <div class="text-center">
-                    <div class="round-rank" style="background: #da2419; padding-left: 3px; padding-right: 13px;">10</div>
+                    <div class="round-rank" [style.backgroundColor]="data.dataMap.page32.reportDtl[9].colorCode">
+                        {{ data.dataMap.page32.reportDtl[9].legends }}</div>
                     <div class="mt-5" style="font-size: 14px;">
-                        00.00% <br/>
+                        <span *ngIf="data.dataMap.page32.reportDtl[9].isArc == 'NO';else other_content">
+                            {{ data.dataMap.page32.reportDtl[9].percentage }}%
+                        </span>
+                        <ng-template #other_content>X%</ng-template>
+                        <br/> 
+                        <span *ngIf="data.dataMap.page32.reportDtl[9].isReverse != 'NO'">+ R </span>
+                        <span *ngIf="data.dataMap.page32.reportDtl[9].isMemoryBackUp != 'NO'">+ B </span>
                     </div>
-                    <div class="mt-20 pink-box">
-                        R
+                    <div [ngClass]="(data.dataMap.page32.reportDtl[9].isReverse != 'NO' && data.dataMap.page32.reportDtl[9].isMemoryBackUp != 'NO') ? 'mt-10' : 'mt-20'" class="pink-box">
+                        {{ data.dataMap.page32.reportDtl[9].fpp }}
                     </div>
                 </div>
 
@@ -385,7 +455,7 @@
                 LTRC
             </div>
             <div class="text-bold mt-10">
-                000
+                {{ data.dataMap.page32.reportDetails.leftRidgeCount }}
             </div>
 
         </div>
@@ -419,12 +489,12 @@
                 RTRC
             </div>
             <div class="text-bold mt-10">
-                000
+                {{ data.dataMap.page32.reportDetails.rightRidgeCount }}
             </div>
         </div>
     </div>
 
     <div class="mt-10 text-center gray-bg-shadow text-bold">
-        TOTAL RIDGE COUNT OF ALL THE 10 LOBES (TRC) <div class="zero-div">000</div>
+        TOTAL RIDGE COUNT OF ALL THE 10 LOBES (TRC) <div class="zero-div"> {{ data.dataMap.page32.reportDetails.totalRidgeCount }}</div>
     </div>
 </div>

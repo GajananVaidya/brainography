@@ -63,28 +63,28 @@
 
     <div class="mt-20">
       <div class="tenth-page-cont1" style="width: 70%;">
-        <div class="tenth-page-cont12" ><strong>{{data.dataMap.page10.section1.rank}}</strong></div>
+        <div class="tenth-page-cont12" ><strong>{{data.dataMap.page10_11.section1.rank}}</strong></div>
         <div class="tenth-page-cont13" style="width: 90%; color: #00abc5; ">
-          <strong>{{data.dataMap.page10.section1.title}}</strong> </div>
+          <strong>{{data.dataMap.page10_11.section1.title}}</strong> </div>
         <div class="clear-both"></div>
         
         <div class="" style=" padding-bottom: 5px;">
          
           <div class="tenth-page-fs23" style="width: 100%;">
-            {{data.dataMap.page10.section1.para1}}
+            {{data.dataMap.page10_11.section1.para1}}
           </div>
           <div class="tenth-page-fs23" style="width: 100%; padding-top: 5px; ">
-            {{data.dataMap.page10.section1.para2}}
+            {{data.dataMap.page10_11.section1.para2}}
          </div>
         </div>
       </div>
 
       <div class="tenth-page-first-box" style="">
-        <img class="width-100" src="assets/images/Page 10/Page-10-img1.jpg">
+        <img class="width-100" [attr.src]="data.dataMap.page10_11.section1.image">
       </div>
       <div class="clear-both"></div>
       <div class="tenth-page-row" style="padding-top: 2px; padding-right: 10px;">
-        {{data.dataMap.page10.section1.para3}}
+        {{data.dataMap.page10_11.section1.para3}}
       </div>
     </div>
     
@@ -95,7 +95,7 @@
     <div class="tenth-page-subof">
       <div>
         <ul class="tenth-page-listsub">
-          <li *ngFor="let subCategory of data.dataMap.page10.section1.interests?.split(';')">
+          <li *ngFor="let subCategory of data.dataMap.page10_11.section1.interests?.split(';')">
             {{ subCategory }}
           </li>
 
