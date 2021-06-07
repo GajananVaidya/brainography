@@ -18,8 +18,9 @@
 }
 .pad-top{padding-top: 5px;}
 .thirty-three-page-line-height{ line-height: 20px; padding-bottom: 15px;}
-.thirty-three-page-cont1 {width: 68%; float: left; color: #ffffff;}
-.thirty-three-page-first-box { float: right; width: 26%;}
+.thirty-three-page-cont1 {width: 60%; float: left; color: #ffffff;}
+.thirty-three-page-first-box { width: 38%;}
+.thirty-three-page-first-box img { margin-top: 15px;}
 .thirty-three-page-blue-header{
     padding-top: 10px;
     font-weight: 900;
@@ -37,8 +38,8 @@
     font-weight: 600;
     padding: 4px;
 }
-.IIL-sec{padding: 20px 10px 7px; font-weight: bold;}
-.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px;}
+.IIL-sec{padding: 20px 10px 7px; font-weight: bold; font-size: 12px;}
+.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px; font-size: 12px;}
 .tbl-bx{border: 1px solid #8a89ab; flex: 1; border-collapse: collapse; background-color: #dcddef; }
 .thirty-three-page-section-heading { 
     color: #16398d; 
@@ -72,11 +73,11 @@
 }
 .thirty-three-page-list-IIL{
     padding-left: 34px;
-    font-size: 11px;
-    line-height: 13px;
+    font-size: 10px;
     margin-top: 1px;
     margin-bottom: 3px;  
 }
 .pd20{padding: 0px 20px;}
 .mt-5{margin-top: 5px;}
 
+.thirty-three-page-line-height ul { margin-top: 6px; }
