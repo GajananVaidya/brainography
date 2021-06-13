@@ -18,9 +18,9 @@
 }
 .pad-top{padding-top: 5px;}
 .thirty-five-page-line-height{ line-height: 21px; padding-bottom: 15px;}
-.thirty-five-page-cont1 {width: 64%; float: left; color: #ffffff;}
-.thirty-five-page-first-box { float: right; width: 33%;}
-.image-sec{text-align: center; margin-right: 9px; padding-top: 50px;}
+.thirty-five-page-cont1 {width: 60%; float: left; color: #ffffff;}
+.thirty-five-page-first-box { width: 38%;}
+.image-sec{text-align: center;  padding-top: 50px;}
 .thirty-five-page-blue-header{
     padding-top: 10px;
     font-weight: 900;
@@ -38,8 +38,8 @@
     font-weight: 600;
     padding: 4px;
 }
-.IIL-sec{padding: 20px 10px 7px; font-weight: bold;}
-.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px;}
+.IIL-sec{padding: 20px 10px 7px; font-weight: bold; font-size: 12px;}
+.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px; font-size: 12px;}
 .tbl-bx{border: 1px solid #abaaaa; flex: 1; border-collapse: collapse; background-color: #eaeed8; }
 .thirty-five-page-section-heading { 
     color: #2d2824; 
@@ -74,7 +74,6 @@
 .thirty-five-page-list-IIL{
     padding-left: 34px;
     font-size: 11px;
-    line-height: 13px;
     margin-top: 1px;
     margin-bottom: 3px;  
 }
