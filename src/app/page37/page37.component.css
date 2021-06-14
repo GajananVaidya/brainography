@@ -1,4 +1,4 @@
-.thirty-seven-page { font-size: 14px; text-align: justify; }
+.thirty-seven-page { font-size: 14px; text-align: justify; margin-left: 40px; }
 
 .thirty-three-page-blue-header{
     padding-top: 10px;
@@ -45,7 +45,7 @@
 .thirty-three-page-list{ margin-left: 2%; line-height: 13px; font-size: 11px; height: 25px; margin-top: 3px; margin-bottom: 3px;} 
 .IIL-bg{background-color: #eedeeb; padding-bottom: 20px;}
 .IIL-sec{padding: 20px 10px 10px; font-weight: bold; font-size: 12px;}
-.IIL-sec1{padding: 10px 10px; font-weight: bold; padding-bottom: 2px; font-size: 12px;}
+.IIL-sec1{padding: 10px 10px; font-weight: bold; padding-bottom: 7px; font-size: 12px;}
 .thirty-three-page-list-IIL{ 
     padding-left: 15px;
     font-size: 11px;

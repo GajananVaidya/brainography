@@ -1,4 +1,4 @@
-.fourty-page { font-size: 14px; text-align: justify; }
+.fourty-page { font-size: 14px; text-align: justify; margin-left: 40px; }
 
 .thirty-three-page-blue-header{
     padding-top: 10px;
@@ -23,7 +23,7 @@
     float: left; 
     padding-left: 14px; }
 
-.thirty-three-page-line-height{ line-height: 20px; padding-bottom: 15px;}
+.thirty-three-page-line-height{ line-height: 20px; }
 .thirty-three-page-line-height ul { margin-top: 6px; }
 .thirty-three-page-first-box { width: 38%; float: left; padding: 0 5px;}
 

@@ -1,4 +1,4 @@
-.thirty-five-page { font-family: Arial; font-size: 14px; text-align: justify; }
+.thirty-five-page { font-family: Arial; font-size: 14px; text-align: justify; margin-left: 40px; }
 .thirty-five-page-row { padding: 5px 0; }
 .thirty-five-page-first-box { float: left; padding: 0 5px; }
 .thirty-five-page-fs23{
@@ -20,7 +20,7 @@
 .thirty-five-page-line-height{ line-height: 18px; padding-bottom: 15px;}
 .thirty-five-page-cont1 {width: 60%; float: left; color: #ffffff;}
 .thirty-five-page-first-box {width: 38%;}
-.image-sec{ padding-top: 30px;}
+.image-sec{ padding-top: 10px;}
 .thirty-five-page-blue-header{
     padding-top: 10px;
     font-weight: 900;
@@ -38,9 +38,9 @@
     font-weight: 600;
     padding: 4px;
 }
-.IIL-sec{padding: 20px 10px 7px; font-weight: bold; font-size: 12px;}
-.IIL-sec1{padding: 9px 10px; font-weight: bold; padding-bottom: 2px; font-size: 12px;}
-.tbl-bx{border: 1px solid #abaaaa; flex: 1; border-collapse: collapse; background-color: #ebebeb; }
+.IIL-sec{padding: 10px 10px 7px; font-weight: bold; font-size: 12px;}
+.IIL-sec1{padding: 5px 10px; font-weight: bold; padding-bottom: 2px; font-size: 12px;}
+.tbl-bx{border: 1px solid #abaaaa; flex: 1; border-collapse: collapse; background-color: #ebebeb; border-top: none; }
 .thirty-five-page-section-heading { 
     color: #2d2824; 
     font-weight: 600; 
