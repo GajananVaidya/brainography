@@ -11,5 +11,9 @@ export class Page26Component implements OnInit {
 
   ngOnInit(): void {
   }
+  
+  addCounter(ind: any, num: any) {
+    return (ind * 4) + num;
+  }
 
 }

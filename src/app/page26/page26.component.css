@@ -1,4 +1,4 @@
-.twenty-sixth-page { font-family: Arial; text-align: justify; }
+.twenty-sixth-page { font-family: Arial; text-align: justify; font-size: 14px; margin-left: 40px; }
 .twenty-nine-page-Research{color: #00a9c1; font-weight: bold;  font-size: 20px; padding: 5px 0px;}
 .twenty-nine-page-sec{ background-color: #f2f2f2;}
 .twenty-nine-page-Rsa-1{line-height: 20px;}
@@ -20,7 +20,25 @@
 .flex-cols { flex: 1; }
 .flex-heading { background-color: #f2f2f2; padding: 15px; text-align: center; font-size: 11px; }
 .flex-heading h4 { margin: 0; font-size: 14px;font-weight: 900;}
-.col-content { background-color: #f2f2f2; padding: 12px; padding-left: 4px; }
-.flex-perc { background: #281571; color: white; padding: 12px 3px; font-weight: bold; }
+.col-content { background-color: #f2f2f2; padding: 12px; padding-left: 4px; font-size: 12px; }
+.flex-perc { background: #281571; color: white; padding: 12px 3px; font-weight: bold; font-size: 12px; }
 
-.twentyth-page-section-subheading { background-color: #e7e7e7; padding: 15px 30px; margin-bottom: 5px; text-align: center; font-size: 10px; }
+.twentyth-page-section-subheading { background-color: #e7e7e7; padding: 10px 5px; margin-bottom: 5px; text-align: center; font-size: 10px; height: 32px;
+    overflow: hidden; }
+
+
+.twenty-seven-page { font-family: Arial; text-align: justify; font-size: 14px; margin-left: 40px; }
+.twenty-seven-page-Research{color: #00a9c1; font-weight: bold;  font-size: 20px; padding-bottom: 7px;}
+.twenty-seven-page-sec{ background-color: #e7e7e7;}
+.twenty-seven-page-Rsa-1{padding: 10px; line-height: 22px;}
+
+.twenty-eight-page { font-family: Arial;   text-align: justify; font-size: 14px; margin-left: 40px;}
+.twenty-eight-page-Research{color: #00a9c1; font-weight: bold; font-size: 20px; padding-bottom: 7px;}
+.twenty-eight-page-sec{ background-color: #e7e7e7; min-height: 280px;}
+.twenty-eight-page-Rsa-1{padding: 10px; line-height: 19px;}
+
+.twenty-nine-page { font-family: Arial;   text-align: justify; font-size: 14px; margin-left: 40px; }
+.twenty-nine-page-Research{color: #00a9c1; font-weight: bold;  font-size: 20px; padding-bottom: 7px;}
+.twenty-nine-page-sec{ background-color: #e7e7e7; min-height: 280px;}
+.twenty-nine-page-Rsa-1{padding: 10px;}
+.mt-15{margin-top: 15px;}

@@ -5,6 +5,51 @@
 
   <div class="mt-20">
     <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section1.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; ">
+        <strong>{{data.dataMap.page10_11.section1.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%;">
+          {{data.dataMap.page10_11.section1.para1}}
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section1.para2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" style="">
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section1.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section1.para3}}
+    </div>
+  </div>
+  
+  <div class="eleventh-page-row text-center mt-20" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section1.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+
+        <div class="clear-both"></div>
+      </ul>
+               
+    </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div class="mt-20">
+    <div class="eleventh-page-cont1" style="width: 70%;">
       <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section2.rank}}</strong></div>
       <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
         {{data.dataMap.page10_11.section2.title}}</strong> </div>
@@ -29,7 +74,7 @@
       {{data.dataMap.page10_11.section2.para3}}
     </div>
   </div>
-  <div class="eleventh-page-row mt-20 text-center" style="color: #00a9c2;">
+  <div class="eleventh-page-row mt-10 text-center" style="color: #00a9c2;">
     <strong>THE SUBJECTS OF YOUR INTEREST</strong>
   </div>
 
@@ -46,6 +91,35 @@
     <div class="clear-both"></div>
   </div>
 
+  <div style="margin-top: 5px;">
+    <div class="footer-elem">
+      Evaluation# {{ data.dataMap.footer.evalNo }}
+    </div>
+    <div class="footer-elem2 text-left">
+      Date {{ data.dataMap.footer.date }}
+    </div>
+    <div class="footer-elem1">
+      @Copyright - Siyasar Enterprise
+    </div>
+    <div class="footer-elem">
+      www.brainography.com
+    </div>
+    <div class="footer-elem">
+      Design By Freepik
+    </div>
+
+    <div class="clear-both"></div>
+  </div>
+  <div class="text-center">
+          11
+  </div>
+</div>
+
+<div class="eleventh-page mt-40">
+  <div class="text-right">
+      <img class="logo-img" src="assets/images/Header.png" />
+  </div>
+
   <div class="mt-20">
     <div class="eleventh-page-cont1" style="width: 70%;">
       <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section3.rank}}</strong></div>
@@ -60,7 +134,7 @@
 
         </div>
         <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
-          {{data.dataMap.page10_11.section3.para1}}
+          {{data.dataMap.page10_11.section3.para2}}
        </div>
       </div>
     </div>
@@ -70,10 +144,10 @@
     </div>
     <div class="clear-both"></div>
     <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
-      {{data.dataMap.page10_11.section3.para1}}
+      {{data.dataMap.page10_11.section3.para3}}
     </div>
   </div>
-  <div class="eleventh-page-row mt-20 text-center" style="color: #00a9c2;">
+  <div class="eleventh-page-row mt-10 text-center" style="color: #00a9c2;">
     <strong>THE SUBJECTS OF YOUR INTEREST</strong>
   </div>
 
@@ -88,4 +162,307 @@
       </div>
     <div class="clear-both"></div>
   </div>
+
+  <div class="mt-20">
+    <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section4.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
+        {{data.dataMap.page10_11.section4.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%; ">
+          {{data.dataMap.page10_11.section4.para_1}}
+
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section4.para_2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" >
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section4.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section4.para_3}}
+    </div>
+  </div>
+  <div class="eleventh-page-row mt-10 text-center" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section4.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+        <div class="clear-both"></div>
+      </ul>
+      </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div style="margin-top: 5px;">
+    <div class="footer-elem">
+      Evaluation# {{ data.dataMap.footer.evalNo }}
+    </div>
+    <div class="footer-elem2 text-left">
+      Date {{ data.dataMap.footer.date }}
+    </div>
+    <div class="footer-elem1">
+      @Copyright - Siyasar Enterprise
+    </div>
+    <div class="footer-elem">
+      www.brainography.com
+    </div>
+    <div class="footer-elem">
+      Design By Freepik
+    </div>
+
+    <div class="clear-both"></div>
+  </div>
+  <div class="text-center">
+    12
+  </div>
+
+
 </div>
+
+
+<div class="eleventh-page mt-40">
+  <div class="text-right">
+      <img class="logo-img" src="assets/images/Header.png" />
+  </div>
+
+  <div class="mt-20">
+    <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section5.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
+        {{data.dataMap.page10_11.section5.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%; ">
+          {{data.dataMap.page10_11.section5.para_1}}
+
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section5.para_2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" >
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section5.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section5.para_3}}
+    </div>
+  </div>
+  <div class="eleventh-page-row mt-30 text-center" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section5.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+        <div class="clear-both"></div>
+      </ul>
+      </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div class="mt-40">
+    <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section6.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
+        {{data.dataMap.page10_11.section6.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%; ">
+          {{data.dataMap.page10_11.section6.para_1}}
+
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section6.para_2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" >
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section6.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section6.para_3}}
+    </div>
+  </div>
+  <div class="eleventh-page-row mt-30 text-center" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section6.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+        <div class="clear-both"></div>
+      </ul>
+      </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div style="margin-top: 5px;">
+    <div class="footer-elem">
+      Evaluation# {{ data.dataMap.footer.evalNo }}
+    </div>
+    <div class="footer-elem2 text-left">
+      Date {{ data.dataMap.footer.date }}
+    </div>
+    <div class="footer-elem1">
+      @Copyright - Siyasar Enterprise
+    </div>
+    <div class="footer-elem">
+      www.brainography.com
+    </div>
+    <div class="footer-elem">
+      Design By Freepik
+    </div>
+
+    <div class="clear-both"></div>
+  </div>
+  <div class="text-center">
+    13
+  </div>
+
+</div>
+
+<div class="eleventh-page mt-40">
+  <div class="text-right">
+      <img class="logo-img" src="assets/images/Header.png" />
+  </div>
+
+  <div class="mt-20">
+    <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section7.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
+        {{data.dataMap.page10_11.section7.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%; ">
+          {{data.dataMap.page10_11.section7.para_1}}
+
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section7.para_2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" >
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section7.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section7.para_3}}
+    </div>
+  </div>
+  <div class="eleventh-page-row mt-10 text-center" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section7.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+        <div class="clear-both"></div>
+      </ul>
+      </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div class="mt-20">
+    <div class="eleventh-page-cont1" style="width: 70%;">
+      <div class="eleventh-page-cont12" ><strong>{{data.dataMap.page10_11.section8.rank}}</strong></div>
+      <div class="eleventh-page-cont13" style="width: 90%; color: #00abc5; "><strong>
+        {{data.dataMap.page10_11.section8.title}}</strong> </div>
+      <div class="clear-both"></div>
+      
+      <div class="" style=" padding-bottom: 5px;">
+       
+        <div class="eleventh-page-fs23" style="width: 100%; ">
+          {{data.dataMap.page10_11.section8.para_1}}
+
+        </div>
+        <div class="eleventh-page-fs23" style="width: 100%; padding-top: 5px; ">
+          {{data.dataMap.page10_11.section8.para_2}}
+       </div>
+      </div>
+    </div>
+
+    <div class="eleventh-page-first-box" >
+      <img class="width-100" [attr.src]="data.dataMap.page10_11.section8.image">
+    </div>
+    <div class="clear-both"></div>
+    <div class="eleventh-page-row" style="padding-top: 2px; padding-right: 10px;">
+      {{data.dataMap.page10_11.section8.para_3}}
+    </div>
+  </div>
+  <div class="eleventh-page-row mt-10 text-center" style="color: #00a9c2;">
+    <strong>THE SUBJECTS OF YOUR INTEREST</strong>
+  </div>
+
+  <div class="eleventh-page-subof">
+    <div>
+      <ul class="eleventh-page-listsub">
+        <li *ngFor="let subCategory of data.dataMap.page10_11.section8.interests?.split(';')">
+          {{ subCategory }}
+        </li>
+        <div class="clear-both"></div>
+      </ul>
+      </div>
+    <div class="clear-both"></div>
+  </div>
+
+  <div style="margin-top: 5px;">
+    <div class="footer-elem">
+      Evaluation# {{ data.dataMap.footer.evalNo }}
+    </div>
+    <div class="footer-elem2 text-left">
+      Date {{ data.dataMap.footer.date }}
+    </div>
+    <div class="footer-elem1">
+      @Copyright - Siyasar Enterprise
+    </div>
+    <div class="footer-elem">
+      www.brainography.com
+    </div>
+    <div class="footer-elem">
+      Design By Freepik
+    </div>
+
+    <div class="clear-both"></div>
+  </div>
+  <div class="text-center">
+    14
+  </div>
+
+
+</div>
+ 

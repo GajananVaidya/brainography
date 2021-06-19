@@ -1,4 +1,4 @@
-.thirtyone-page { font-family: Arial; font-size: 14px; text-align: justify; }
+.thirtyone-page { font-family: Arial; font-size: 14px; text-align: justify; margin-left: 40px; }
 .emply-bar{display: inline-block; height: 194px; width: 34px; background-color: #f3adb7;}
 .thirtyone-page-sec{background-color: #ffffff; display: flex;}
 .employee-sec-width25{width: 49%; float: left; text-align: center; margin-top: 25px; position: absolute; bottom: 30px;}

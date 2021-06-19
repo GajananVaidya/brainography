@@ -1,171 +1,377 @@
-<div class="twenty-sixth-page mt-40" style="margin-top: 50%;">
-    <div class="text-right">
-        <img class="logo-img" src="assets/images/Header.png" />
-    </div>
-    <div class="blue-header mt-10">
-        {{ data.dataMap.page26_29.main_title }}
-    </div>
-
-    <div class="flex-row mt-10">
-        <div class="flex-cols mr-5">
-            <div class="flex-heading">
-                <h4>INQUISITORS</h4>
-                Guided By Logic
+<div style="margin-top: 50%;">
+    <div *ngFor="let item of data.dataMap.page26_29; let i = index">
+        <div class="twenty-sixth-page mt-40">
+            <div class="text-right">
+                <img class="logo-img" src="assets/images/Header.png" />
             </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">STRATIGEST</div>
-                    <div class="flex-perc">50%</div>
+            <div class="blue-header mt-10">
+                {{ item.main_title }}
+            </div>
+        
+            <div class="flex-row mt-10">
+                <div class="flex-cols mr-5">
+                    <div class="flex-heading">
+                        <h4>INQUISITORS</h4>
+                        Guided By Logic
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">STRATEGIST</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.strategist }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">ADMINISTRATOR</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.administrator }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">THEORIST</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.theorist }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">CHALLENGER</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.challenger }}%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-cols mr-5">
+                    <div class="flex-heading">
+                        <h4>ANTICIPATORS</h4>
+                        Guided By Principles
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">SAMARITAN</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.samaritan }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">SOCIALIZER</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.socializer }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">OPTIMIST</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.optimist }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">ENERGIZER</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.energizer }}%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-cols mr-5">
+                    <div class="flex-heading">
+                        <h4>REGULATORS</h4>
+                        Guided By Practicality
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">PRAGMATIST</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.pragmatist }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">EXPONENT</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.exponent }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">BENEVOLENT</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.benevolent }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">INDULGENT</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.indulgent }}%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-cols">
+                    <div class="flex-heading">
+                        <h4>PARTICIPATORS</h4>
+                        Guided By Excitement
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">IMPROVISER</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.improviser }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">EXPLORER</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.explorer }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">EMPIRIC</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.empiric }}%</div>
+                        </div>
+                    </div>
+                    <div class="flex-content mt-5">
+                        <div class="flex-row">
+                            <div class="flex-cols col-content">JUBILANT</div>
+                            <div class="flex-perc">{{ data.dataMap.page25.jubilant }}%</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">ADMINISTRATOR</div>
-                    <div class="flex-perc">50%</div>
+        
+            <div class="mt-20">
+                <div class="twenty-nine-page-sec">
+                    <div style="padding-top: 10px;" class="text-center twenty-nine-page-Research">{{ item.intro_title }}</div>
+                    <div style="padding-top: 0px;" class="twenty-nine-page-Rsa-1">
+                        {{ item.intro_para }}
+                        
+                    </div>
                 </div>
+                <div class="clear-both"></div>
             </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">THEORIST</div>
-                    <div class="flex-perc">50%</div>
+            <div class="mt-20">
+                <div class="twenty-sixth-page-row-wrapper">
+                    <div class="twentyth-page-section-heading" style="margin-right: 5px;">
+                        PROS
+                    </div>
+                    
+                   
+                    <div class="twentyth-page-section-heading">
+                        CONS
+                    </div>
                 </div>
+                <div class="clear-both"></div>
             </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">CHALLANGER</div>
-                    <div class="flex-perc">50%</div>
+            <div class="mt-5">
+                <div class="twenty-sixth-page-row-wrapper">
+                    <div class="twenty-sixth-page-column-one">
+                        <div *ngFor="let item of item.pros?.split(';')" class="twentyth-page-section-subheading">
+                           {{ item }}
+                        </div>
+                    </div>
+                    <div class="twenty-sixth-page-column-two">
+                        <div *ngFor="let item of item.cons?.split(';')" class="twentyth-page-section-subheading">
+                            {{ item }}
+                        </div>
+                    </div>
                 </div>
+                <div class="clear-both"></div>
             </div>
-        </div>
-        <div class="flex-cols mr-5">
-            <div class="flex-heading">
-                <h4>ANTICIPATORS</h4>
-                Guided By Principles
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">SAMARITAN</div>
-                    <div class="flex-perc">50%</div>
+        
+            <div style="margin-top: 5px;">
+                <div class="footer-elem">
+                  Evaluation# {{ data.dataMap.footer.evalNo }}
                 </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">SOCIALIZER</div>
-                    <div class="flex-perc">50%</div>
+                <div class="footer-elem2 text-left">
+                  Date {{ data.dataMap.footer.date }}
                 </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">OPTIMIST</div>
-                    <div class="flex-perc">50%</div>
+                <div class="footer-elem1">
+                  @Copyright - Siyasar Enterprise
                 </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">ENERGIZER</div>
-                    <div class="flex-perc">50%</div>
+                <div class="footer-elem">
+                  www.brainography.com
                 </div>
-            </div>
-        </div>
-        <div class="flex-cols mr-5">
-            <div class="flex-heading">
-                <h4>REGULATORS</h4>
-                Guided By Practicality
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">PRAGMATIST</div>
-                    <div class="flex-perc">50%</div>
+                <div class="footer-elem">
+                  Design By Freepik
                 </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">EXPONENT</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">BENEVOLENT</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">INDULGENT</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-        </div>
-        <div class="flex-cols">
-            <div class="flex-heading">
-                <h4>PARTICIPATORS</h4>
-                Guided By Excitement
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">IMPROVISER</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">EXPLORER</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">EMPIRIC</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-            <div class="flex-content mt-5">
-                <div class="flex-row">
-                    <div class="flex-cols col-content">JUBILANT</div>
-                    <div class="flex-perc">50%</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mt-20">
-        <div class="twenty-nine-page-sec" style="padding: 15px 15px 25px;">
-            <div class="text-center twenty-nine-page-Research">{{ data.dataMap.page26_29.intro_title }}</div>
-            <div class="twenty-nine-page-Rsa-1">
-                {{ data.dataMap.page26_29.intro_para }}
-                
-            </div>
-        </div>
-        <div class="clear-both"></div>
-    </div>
-    <div class="mt-20">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twentyth-page-section-heading" style="margin-right: 5px;">
-                PROS
-            </div>
             
-           
-            <div class="twentyth-page-section-heading">
-                CONS
+                <div class="clear-both"></div>
+            </div>
+            <div class="text-center">
+                {{ addCounter(i, 44) }}
+            </div>
+    
+        </div>
+        
+        <div class="twenty-seven-page mt-20">
+            <div class="">
+                <div class="text-right">
+                    <img class="logo-img" src="assets/images/Header.png" />
+                </div>
+                <div class="mt-10">
+                    <div>
+                        <div class="text-center twenty-seven-page-Research">{{ item.child_title }}</div>
+                        <div class="twenty-seven-page-sec">
+                            <div class="twenty-seven-page-Rsa-1">
+                                {{ item.child_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="mt-20">
+                    <div>
+                        <div class="text-center twenty-seven-page-Research">{{ item.adult_title }}</div>
+                        <div class="twenty-seven-page-sec">
+                            <div class="twenty-seven-page-Rsa-1">
+                                {{ item.adult_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="mt-20">
+                    <div>
+                        <div class="text-center twenty-seven-page-Research">{{ item.friend_title }}</div>
+                        <div class="twenty-seven-page-sec">
+                            <div class="twenty-seven-page-Rsa-1">
+                                {{ item.friend_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+    
+                <div style="margin-top: 5px;">
+                    <div class="footer-elem">
+                      Evaluation# {{ data.dataMap.footer.evalNo }}
+                    </div>
+                    <div class="footer-elem2 text-left">
+                      Date {{ data.dataMap.footer.date }}
+                    </div>
+                    <div class="footer-elem1">
+                      @Copyright - Siyasar Enterprise
+                    </div>
+                    <div class="footer-elem">
+                      www.brainography.com
+                    </div>
+                    <div class="footer-elem">
+                      Design By Freepik
+                    </div>
+                
+                    <div class="clear-both"></div>
+                </div>
+                <div class="text-center">
+                    {{ addCounter(i, 45) }}
+                </div>
+        
             </div>
         </div>
-        <div class="clear-both"></div>
-    </div>
-    <div class="mt-5">
-        <div class="twenty-sixth-page-row-wrapper">
-            <div class="twenty-sixth-page-column-one">
-                <div *ngFor="let item of data.dataMap.page26_29.pros" class="twentyth-page-section-subheading">
-                   {{ item }}
+        
+        <div class="twenty-eight-page mt-20">
+            <div class="">
+                <div class="text-right">
+                    <img class="logo-img" src="assets/images/Header.png" />
                 </div>
-            </div>
-            <div class="twenty-sixth-page-column-two">
-                <div *ngFor="let item of data.dataMap.page26_29.cons" class="twentyth-page-section-subheading">
-                    {{ item }}
+                <div class="mt-10">
+                    <div>
+                        <div class="text-center twenty-eight-page-Research">{{ item.lifepartner_title }}</div>
+                        <div class="twenty-eight-page-sec">
+                            <div class="twenty-eight-page-Rsa-1">
+                                {{ item.lifepartner_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="mt-20">
+                    <img class="width-100" [attr.src]="item.image_1"> 
+                </div>
+                <div class="mt-20">
+                    <div>
+                        <div class="text-center twenty-eight-page-Research">{{ item.parent_title }}</div>
+                        <div class="twenty-eight-page-sec">
+                            <div class="twenty-eight-page-Rsa-1">
+                                {{ item.parent_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+    
+                <div style="margin-top: 5px;">
+                    <div class="footer-elem">
+                      Evaluation# {{ data.dataMap.footer.evalNo }}
+                    </div>
+                    <div class="footer-elem2 text-left">
+                      Date {{ data.dataMap.footer.date }}
+                    </div>
+                    <div class="footer-elem1">
+                      @Copyright - Siyasar Enterprise
+                    </div>
+                    <div class="footer-elem">
+                      www.brainography.com
+                    </div>
+                    <div class="footer-elem">
+                      Design By Freepik
+                    </div>
+                
+                    <div class="clear-both"></div>
+                </div>
+                <div class="text-center">
+                    {{ addCounter(i, 46) }}
+                </div>
+    
+               </div>
+        </div>
+        
+        <div class="twenty-nine-page mt-20">
+            <div class="">
+                <div class="text-right">
+                    <img class="logo-img" src="assets/images/Header.png" />
+                </div>
+                <div class="mt-10">
+                    <div>
+                        <div class="text-center twenty-nine-page-Research">{{ item.employee_title }}</div>
+                        <div class="twenty-nine-page-sec">
+                            <div class="twenty-nine-page-Rsa-1">
+                                {{ item.employee_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="text-center mt-20">
+                    <img [attr.src]="item.image_2" class="width-100">
+                </div>
+                <div class="mt-15">
+                    <div>
+                        <div class="text-center twenty-nine-page-Research">{{ item.boss_title }}</div>
+                        <div class="twenty-nine-page-sec">
+                            <div class="twenty-nine-page-Rsa-1">
+                                {{ item.boss_para }}
+                                </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+    
+                <div style="margin-top: 5px;">
+                    <div class="footer-elem">
+                      Evaluation# {{ data.dataMap.footer.evalNo }}
+                    </div>
+                    <div class="footer-elem2 text-left">
+                      Date {{ data.dataMap.footer.date }}
+                    </div>
+                    <div class="footer-elem1">
+                      @Copyright - Siyasar Enterprise
+                    </div>
+                    <div class="footer-elem">
+                      www.brainography.com
+                    </div>
+                    <div class="footer-elem">
+                      Design By Freepik
+                    </div>
+                
+                    <div class="clear-both"></div>
+                </div>
+                <div class="text-center">
+                    {{ addCounter(i, 47) }}
                 </div>
             </div>
         </div>
-        <div class="clear-both"></div>
     </div>
-
 </div>
+

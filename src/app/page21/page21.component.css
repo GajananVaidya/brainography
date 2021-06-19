@@ -1,4 +1,4 @@
-.twentyfirst-page { font-family: Arial; font-size: 14px;  text-align: justify; }
+.twentyfirst-page { font-family: Arial; font-size: 14px;  text-align: justify; margin-left: 40px;}
 .twentyth-page-PQ{ color: #00abc1; font-size: 20px; font-weight: 800;}
 .twentyth-page-section-heading { color: #00abc0; font-weight: 600;}
 .row-wrapper { display: flex; flex-wrap: wrap; margin-bottom: 5px; } 

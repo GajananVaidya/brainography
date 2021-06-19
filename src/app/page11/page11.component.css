@@ -1,4 +1,4 @@
-.eleventh-page { font-family: Arial; font-size: 14px; text-align: justify; }
+.eleventh-page { font-family: Arial; font-size: 14px; text-align: justify; margin-left: 40px; }
 .eleventh-page-row { padding: 5px 0; }
 .fifth-page-first-box { float: left; padding: 0 5px; }
 .eleventh-page-fs23{padding: 5px 0px; float: left;}
@@ -9,9 +9,9 @@
 .eleventh-page-sujbof {width: 6.6px;  height: 7.5px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px;}
 .eleventh-page-list-color{width: 6.6px; height: 6.5px;background: #b3b3b3;display: inline-block;border-radius: 10px; margin-right: 3px}
 .eleventh-page-marlf14{margin-left: 30px;}
-.eleventh-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px; min-height: 120px; padding-top: 0;}
+.eleventh-page-subof{border: 1px solid #c1c1c0;border-radius: 10px; padding: 5px; padding-top: 0;}
 .eleventh-page-subof{ margin-top: 10px;}
 
-.eleventh-page-listsub {margin-top: 11px; padding-left: 10px; list-style: none; }
+.eleventh-page-listsub {margin-top: 11px; padding-left: 10px; list-style: none; margin-bottom: 0; }
 .eleventh-page-listsub li { float: left; list-style-position: inside; margin-right: 15px; line-height: 25px;} 
 .eleventh-page-listsub li::before { content: "\2022"; color: #989898; display: inline-block; width: .7em; }

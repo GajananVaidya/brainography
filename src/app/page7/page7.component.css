@@ -1,4 +1,4 @@
-.seventh-page { font-family: Arial;  font-size: 14px;  text-align: justify; }
+.seventh-page { font-family: Arial;  font-size: 14px;  text-align: justify; margin-left: 40px; }
 .mt-20 { margin-top: 20px; }
 .mt-18{ margin-top: 18px; }
 .mt-16{ margin-top: 16px; }
@@ -38,10 +38,10 @@
 .footer-elem2 { width: 17%; float: left; font-size: 9px; text-align: center; font-family: arial;}
 
 
-.fifth-page-row { padding: 5px; font-size: 13.5px;  }
+.fifth-page-row { padding: 5px; }
 .fifth-page-first-box { float: left; padding: 0 5px; }
-.ssc-bar { height:45px; float: left; background-color: #f3adb7; position: absolute; }
-.cbse-bar { height:45px; float: left; background-color: #87cac5; position: absolute; }
-.icse-bar { height:45px; float: left; background-color: #62bff0; position: absolute; }
-.igcse-bar { height:45px; float: left; background-color: #a098c4; position: absolute; }
+.ssc-bar { height:45px; float: left; background-color: rgb(245, 185, 190); position: absolute; }
+.cbse-bar { height:45px; float: left; background-color: rgb(149, 207, 176); position: absolute; }
+.icse-bar { height:45px; float: left; background-color: rgb(64, 182, 237); position: absolute; }
+.igcse-bar { height:45px; float: left; background-color: rgb(160, 151, 197); position: absolute; }
 .seventh-page-fs1 { position: relative; }

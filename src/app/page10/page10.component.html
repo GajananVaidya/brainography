@@ -1,16 +1,16 @@
-<div class="tenth-page mt-40">
+<div class="tenth-page mt-40" style="margin-bottom: 500px;">
     <div class="text-right">
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
 
     <div class="text-center mt-10">
-        <img style="width: 60%;" src="assets/images/Page 10/page-10-head.jpg" >
+        <img style="width: 70%;" src="assets/images/Page 10/page-10-head.jpg" >
     </div>
 
-    <div class="mt-20" style="background-color: #e6e7e8;">
+    <div class="mt-10" style="background-color: #e6e7e8;">
         <div class="tenth-page-row">
           <div class="fifth-page-first-box" style="width: 2%;"><strong>Q</strong></div>
-          <div class="fifth-page-first-box" style="width: 94%;"><strong>So now I am 5, What's next?</strong> </div>
+          <div class="fifth-page-first-box" style="width: 94%;"><strong>So now I am 6, What's next?</strong> </div>
           <div class="clear-both"></div>
         </div>
         <div class="tenth-page-row">
@@ -18,7 +18,7 @@
           <div class="fifth-page-first-box" style="width: 94%; text-align: justify; ">
             A journey towards building your character is less significant without identifying your Passion. 
             A Passion will lead you to the purpose of your life. Feel the power that comes from pursuing what excites you. 
-            Explore your passion 
+            Explore your passion.
           </div>
           <div class="clear-both"></div>
         </div>
@@ -46,8 +46,8 @@
             </p>
 
             <p>
-                We have shortlisted '3 of your best talents' related to your abilities. You can develop your Passion from either any one talent
-             or from the combination of multiple talents. 'The subjects of interest' listed is just for indication to understand the genre
+                We have shortlisted <u>'3 of your best talents'</u> related to your abilities. You can develop your Passion from either any one talent
+             or from the combination of multiple talents. <u>'The subjects of interest'</u> listed is just for indication to understand the genre
               of activities. You can either discover a Passion or you can invent a unique one for yourself. Be the author of your life!
             </p>
              
@@ -61,49 +61,5 @@
       <span class="ur-talent">YOUR TALENTS</span>
     </div>
 
-    <div class="mt-20">
-      <div class="tenth-page-cont1" style="width: 70%;">
-        <div class="tenth-page-cont12" ><strong>{{data.dataMap.page10_11.section1.rank}}</strong></div>
-        <div class="tenth-page-cont13" style="width: 90%; color: #00abc5; ">
-          <strong>{{data.dataMap.page10_11.section1.title}}</strong> </div>
-        <div class="clear-both"></div>
-        
-        <div class="" style=" padding-bottom: 5px;">
-         
-          <div class="tenth-page-fs23" style="width: 100%;">
-            {{data.dataMap.page10_11.section1.para1}}
-          </div>
-          <div class="tenth-page-fs23" style="width: 100%; padding-top: 5px; ">
-            {{data.dataMap.page10_11.section1.para2}}
-         </div>
-        </div>
-      </div>
-
-      <div class="tenth-page-first-box" style="">
-        <img class="width-100" [attr.src]="data.dataMap.page10_11.section1.image">
-      </div>
-      <div class="clear-both"></div>
-      <div class="tenth-page-row" style="padding-top: 2px; padding-right: 10px;">
-        {{data.dataMap.page10_11.section1.para3}}
-      </div>
-    </div>
-    
-    <div class="tenth-page-row text-center mt-20" style="color: #00a9c2;">
-      <strong>THE SUBJECTS OF YOUR INTEREST</strong>
-    </div>
-
-    <div class="tenth-page-subof">
-      <div>
-        <ul class="tenth-page-listsub">
-          <li *ngFor="let subCategory of data.dataMap.page10_11.section1.interests?.split(';')">
-            {{ subCategory }}
-          </li>
-
-          <div class="clear-both"></div>
-        </ul>
-                 
-      </div>
-      <div class="clear-both"></div>
-    </div>
    
 </div>

@@ -12,4 +12,7 @@ export class Page14Component implements OnInit {
   ngOnInit(): void {
   }
 
+  addTen(value: string){
+    return parseInt(value) + 10;
+  }
 }

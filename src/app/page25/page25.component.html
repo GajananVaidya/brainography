@@ -76,7 +76,7 @@
                         <div class="pink-heading">PRAGMATIST</div>
                         <div class="pink-perc">{{ data.dataMap.page25.pragmatist }}%</div>
                     </div>
-                    <div class="pink-body">
+                    <div class="pink-body" style="min-height: 140px;">
                         Thrive on logical decision-making, accomplishing tasks in an orderly & organized fashion. Practical with a plan, whose reliability cannot be doubted. Enjoy a neat & organized space, both at home & at work. Value traditions, loyalty & order, making it sometimes difficult for them to be flexible during times of change.  
                     </div>
                 </div>
@@ -86,56 +86,45 @@
                         <div class="blue-heading">STRATEGIST</div>
                         <div class="pink-perc">{{ data.dataMap.page25.strategist }}%</div>
                     </div>
-                    <div class="blue-body" style="padding-bottom: 6.5px;">
+                    <div class="blue-body" style="padding-bottom: 10px;">
                         Imaginative with a plan for everything. Driven by gaining & utilizing knowledge. Future oriented, focuses on 'Big picture'. Highly confident, seek to reform & improve the world around them. Uncomfortable in large groups or among people they don't know well. Prefer to discuss ideas & facts rather than engage in superficial talks. 
                     </div>
                 </div>
             </div>
 
             <div class="second-flex-middle-row">
-                <div class="flex-row">
+                <div class="flex-row" style="margin: 5px 10px;">
                     <div class="second-flex-row">
                         <div class="pink-section" style="margin-right: 0;">
-                            <div class="flex-row">
-                                <div class="pink-heading">REGULATORS</div>
-                                
-                            </div>
-                            <div class="pink-body">
+                            <div class="pink-body" style="padding: 10px 15px; font-style: italic; background: #f7d7dc;">
+                                <div class="inside-heading">REGULATORS</div>
                                 Conscientious, Firm &Dutiful:  Hard working, meticulous & traditional, excellent in fields that rely on clear hierarchies & rules. These traits forces REGULATORS to stick to their plans and do not shy away from undertaking challenging tasks, but they can also be very inflexible & reluctant to accept opinions of others 
                             </div>
                         </div>
 
                         <div class="pink-section mt-5" style="margin-right: 0;">
-                            <div class="flex-row">
-                                <div class="blue-heading">INQUISITORS</div>
-                               
-                            </div>
-                            <div class="blue-body" style="padding-bottom: 6.5px;">
+                            <div class="blue-body" style="padding: 10px 15px; font-style: italic; padding-bottom: 2px; background: #bde1f5;">
+                                <div class="inside-heading">INQUISITORS</div>
                                 Ingenious, Cerebral &Aspiring :  Fiercely independent, open-minded, strong-willed & imaginative, interested in doing what is right, than what satisfies everybody. These traits forces INQUISATORS to be excellent negotiators & manipulators, but also cause difficulties when it comes to endeavoring social or romantic pursuits. 
                             </div>
                         </div>
 
                     </div>
                     <div style="flex: 2;" class="second-flex-row">
-                        <img style="height: 334px; width: 100%;" src="assets/images/page 25/PAGE-25-center.png" />
+                        <img style="height: 341px; width: 100%;" src="assets/images/page 25/PAGE-25-center.png" />
                     </div>
                     <div class="second-flex-row">
                         <div class="pink-section">
-                            <div class="flex-row">
-                                <div class="green-heading">PARTICIPATORS</div>
-                                
-                            </div>
-                            <div class="green-body">
+                            
+                            <div class="green-body" style="padding: 10px 15px; font-style: italic; background: #c4e5d4; padding-bottom: 20px;">
+                                <div class="inside-heading">PARTICIPATORS</div>
                                 Curious, Convivial & Playful :  Self-reliant, quick-thinking & flexible with ability to connect with their surroundings. These traits forces PARTICIPATORS to be spontaneous & practical giving them an edge in trouble-shooting & handling of equip-ment, but they often venture into risky tasks & focus more on physical pleasures 
                             </div>
                         </div>
 
                         <div class="pink-section mt-5">
-                            <div class="flex-row">
-                                <div class="purple-heading">ANTICIPATORS</div>
-                               
-                            </div>
-                            <div class="purple-body" style="padding-bottom: 6.5px;">
+                            <div class="purple-body" style="padding: 10px 15px; font-style: italic; padding-bottom: 24px; background: #cfcbe1;">
+                                <div class="inside-heading">ANTICIPATORS</div>
                                 Compassionate Kind & Caring  Warm, sympathetic & diplom-atic individuals, highly influential & co-operative. These traits forces ANTICIPATORS to play the role of peace makers in their social circles, but they struggle when there is a need to rely exclusively on cold rationality or make important decisions for self. 
                             </div>
                         </div>
@@ -149,7 +138,7 @@
                         <div class="green-heading">IMPROVISER</div>
                         <div class="pink-perc">{{ data.dataMap.page25.improviser }}%</div>
                     </div>
-                    <div class="green-body">
+                    <div class="green-body" style="min-height: 140px;">
                         Quiet & observant, when prob-lem arises, they are tolerant, flexible & quick to find a solution. Highly organized & practical. Values data & facts to under-stand issues. Good in handling equipment. Bold & practical experimenters, find ways to make things work & improvise along the way. 
                     </div>
                 </div>
@@ -159,7 +148,7 @@
                         <div class="purple-heading">SAMARITAN</div>
                         <div class="pink-perc">{{ data.dataMap.page25.samaritan }}%</div>
                     </div>
-                    <div class="purple-body" style="padding-bottom: 6.5px;">
+                    <div class="purple-body" style="padding-bottom: 10px;">
                         Inspiring & tireless idealist, highly insightful about people's needs, motivations & concerns. Value relationships with others. Often artistic, creative & comp-lex. Deeply caring & gentle, find meaning in work that directly helps others. Highly intro-spective & imaginative but often exhaust themselves in pursuing their passion. 
                     </div>
                 </div>
@@ -230,11 +219,11 @@
         </div>
     </div>
 
-    <div style="transform: translate(0px, 300px);">
+    <div style="transform: translate(0px, 280px);">
         <div class="footer-elem"> Evaluation# {{ data.dataMap.footer.evalNo }}
         </div>
         <div class="footer-elem2 text-left">
-          Date
+          Date {{ data.dataMap.footer.date }}
         </div>
         <div class="footer-elem1">
           @Copyright - Siyasar Enterprise
@@ -248,8 +237,8 @@
 
         <div class="clear-both"></div>
 
-        <div class="text-center">
-            25
+        <div style="font-size: 14px;" class="text-center">
+            43
         </div>
     </div>
 

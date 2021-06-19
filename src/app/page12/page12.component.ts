@@ -13,7 +13,11 @@ export class Page12Component implements OnInit {
   }
 
   convertString(value: string){
-    return parseInt(value) + 5;
+    return parseInt(value) + 25;
+  }
+
+  addTwenty(value: string){
+    return parseInt(value) + 20;
   }
 
 }

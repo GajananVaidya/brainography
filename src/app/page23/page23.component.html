@@ -1,24 +1,24 @@
-<div class="twenty-third-page mt-40">
+<div class="twenty-third-page mt-40" *ngFor="let item of data.dataMap.page23; let i = index">
     <div class="text-right">
         <img class="logo-img" src="assets/images/Header.png" />
     </div>
     <div class="blue-header mt-20">
-       {{ data.dataMap.page23.title }}
+       {{ item.title }}
     </div>
     <div class="mt-20">
         <div class="twenty-third-page-cont1" style="width: 70%;">
             <div class="" style=" padding-bottom: 5px;">
                 <div class="twenty-third-page-fs23" style="width: 100%;">
-                    {{ data.dataMap.page23.para_1 }}
+                    {{ item.para_1 }}
                 </div>
                 <div class="twenty-third-page-fs23" style="width: 100%; padding-top: 15px; ">
-                    {{ data.dataMap.page23.para_2 }}
+                    {{ item.para_2 }}
                 </div>
             </div>
         </div>
         <div class="twenty-third-page-first-box" style="text-align: center;">
-            <img style="height: 190px;" [attr.src]="data.dataMap.page23.image">
-            <div class="twentythird-page-ext-sec">Extremely Compliant</div>
+            <img style="height: 180px;" [attr.src]="item.image">
+            <div class="twentythird-page-ext-sec">{{ item.image_caption }}</div>
         </div>
         <div class="clear-both"></div>
     </div>
@@ -27,10 +27,10 @@
             <div class="twentythird-page-ext-char">COMMON CHARACTERISTICS</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20" style="min-height: 125px;">
+            <div class="pd20">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li *ngFor="let item of data.dataMap.page23.common_characteristic">
+                        <li *ngFor="let item of item.common_characteristic">
                             {{ item }}
                         </li>
                         <!-- <li>Well-organized & systematic. Will thrive in solving complex
@@ -68,10 +68,10 @@
             <div class="twentythird-page-ext-char">CHALLENGES</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20" style="min-height: 125px;">
+            <div class="pd20">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li *ngFor="let item of data.dataMap.page23.challenges">
+                        <li *ngFor="let item of item.challenges">
                             {{ item }}
                         </li>
                         <!-- <li>Over- analytical. While being obsessive to focus too much
@@ -109,10 +109,10 @@
             <div class="twentythird-page-ext-char">REMEDIES</div>
         </div>
         <div class="mt-5" style="background-color: #e7e7e7;">
-            <div class="pd20" style="min-height: 125px;">
+            <div class="pd20">
                 <div>
                     <ul class="twenty-third-page-list">
-                        <li *ngFor="let item of data.dataMap.page23.remedies">
+                        <li *ngFor="let item of item.remedies">
                             {{ item }}
                         </li>
                         <!-- <li>
@@ -213,6 +213,29 @@
             <div class="clear-both"></div>
           </div>
         
+    </div>
+
+    <div style="margin-top: 5px;">
+        <div class="footer-elem">
+          Evaluation# {{ data.dataMap.footer.evalNo }}
+        </div>
+        <div class="footer-elem2 text-left">
+          Date {{ data.dataMap.footer.date }}
+        </div>
+        <div class="footer-elem1">
+          @Copyright - Siyasar Enterprise
+        </div>
+        <div class="footer-elem">
+          www.brainography.com
+        </div>
+        <div class="footer-elem">
+          Design By Freepik
+        </div>
+    
+        <div class="clear-both"></div>
+    </div>
+    <div class="text-center">
+        {{ i + 26 }}
     </div>
 
  

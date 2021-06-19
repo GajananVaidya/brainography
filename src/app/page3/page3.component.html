@@ -38,7 +38,14 @@
                                             <td class="page3-sec1">YOUR NAME</td>
                                             <td class="page3-sec2">{{ data.dataMap.page3.personal.name }}</td>
                                             <td bgcolor="#ebebeb" class="page3-sec3" width="27%" rowspan="5"
-                                              align="center" valign="middle">ADD <br>PHOTO</td>
+                                              align="center" valign="middle">
+                                              <div *ngIf="data.dataMap.page3.personal.photo == ''; else other_content">ADD <br>PHOTO</div>
+                                              
+                                              <ng-template #other_content>
+                                                <img class="width-100" src="assets/images/Header.png" />
+                                              </ng-template>
+                                              
+                                            </td>
                                           </tr>
 
 
@@ -179,7 +186,7 @@
                               <td style="background-color: #ebebeb;">
                                 <p
                                   style="font-family: Arial; font-size: 12px; color: #000000; font-weight: normal; margin: 0;
-                                  padding-left: 15px;padding-right: 15px;line-height: 17px; text-align: justify; padding-bottom: 5px;">
+                                  padding-left: 15px;padding-right: 15px;line-height: 18px; text-align: justify; padding-bottom: 20px;">
                                   The contents of this BRAINOGRAPHY report are assessment based on Dermatoglyphics. 
                                   By providing your fingerprints or biometrics yourself or 
                                   under the supervision and permission 
@@ -284,7 +291,7 @@
                           Evaluation# {{ data.dataMap.footer.evalNo }}
                         </div>
                         <div class="footer-elem2 text-left">
-                          Date
+                          Date {{ data.dataMap.footer.date }}
                         </div>
                         <div class="footer-elem1">
                           @Copyright - Siyasar Enterprise

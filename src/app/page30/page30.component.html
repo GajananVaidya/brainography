@@ -1,4 +1,4 @@
-<div class="thirty-page mt-20">
+<div class="thirty-page mt-20" *ngFor="let item of data.dataMap.page30; let i = index">
     <div id="page30-1">
         <div class="text-right">
             <img class="logo-img" src="assets/images/Header.png" />
@@ -23,16 +23,16 @@
             <div class="content-flex">
                 <div class="perc-wrapper" style="left: 50px;">
                     <div class="text-bold">LEFT BRAIN</div>
-                    <div class="perc-center">{{ data.dataMap.page30.left_brain }}%</div>
+                    <div class="perc-center">{{ item.left_brain }}%</div>
                 </div>
             </div>
             <div class="img-flex text-center">
-                <img style="height: 240px;" [attr.src]="data.dataMap.page30.image" />
+                <img style="height: 240px;" [attr.src]="item.image" />
             </div>
             <div class="content-flex">
                 <div class="perc-wrapper" style="left: -30px;">
                     <div class="text-bold">RIGHT BRAIN</div>
-                    <div class="perc-center">{{ data.dataMap.page30.right_brain }}%</div>
+                    <div class="perc-center">{{ item.right_brain }}%</div>
                 </div>
             </div>
         </div>
@@ -56,9 +56,10 @@
                 </div>
                 <div class="main-col-gray">
                     <div class="td-gray">Muscles of Right Side of the Body.</div>
+                    <img class="arrow-icon" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray">Muscles of Left Side of the Body.</div>
+                    <div class="td-gray ml-10">Muscles of Left Side of the Body.</div>
                 </div>
             </div>
         
@@ -70,9 +71,10 @@
                     <div class="td-gray"> <strong>DIGITAL BRAIN:</strong> Speech & Language, <br/>
                          Logical Analysis & Reasoning, <br/> Mathematical Computations, 
                         Precision.</div>
+                    <img class="arrow-icon" style="top: 15px;" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray"><strong>ANALOG BRAIN:</strong> Spatial Awareness,<br />
+                    <div class="td-gray ml-10"><strong>ANALOG BRAIN:</strong> Spatial Awareness,<br />
                          Intuition, Facial Recognition, Visual Imagery,<br /> Music Awareness, Rhythm, Art.</div>
                 </div>
             </div>
@@ -91,9 +93,14 @@
                             <li>Pay Attention To Detail.</li>
                         </ul>
                     </div>
+                    <img class="arrow-icon" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 26px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 49px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 71px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 92px;" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray">
+                    <div class="td-gray ml-10">
                         <ul class="col-li" style="padding-left: 10px; margin: 0;">
                             <li>Creative, Artistic, Impetuous & Spontaneous. </li>
                             <li>Subject Conscious - Courageous & Takes Risks.</li>
@@ -121,9 +128,15 @@
                             <li>Discrimination & Evaluation.</li>
                         </ul>
                     </div>
+                    <img class="arrow-icon" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 26px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 49px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 71px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 92px;" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 112px;" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray">
+                    <div class="td-gray ml-10">
                         <ul class="col-li" style="padding-left: 10px; margin: 0;">
                             <li>Big-Picture Oriented - "Whole to Details".</li>
                             <li>Looks at Present to Future.</li>
@@ -148,9 +161,11 @@
                             <li>Emphasis on Strategies.</li>
                         </ul>
                     </div>
+                    <img class="arrow-icon" src="assets/images/Page 30/two-way-arrow.png" />
+                    <img class="arrow-icon" style="top: 26px;" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray">
+                    <div class="td-gray ml-10">
                         <ul class="col-li" style="padding-left: 10px; margin: 0;">
                             <li>Intuitive - Spatial/Abstract Perception.</li>
                             <li>Emphasis on Possibilities. </li>
@@ -168,14 +183,39 @@
                     <div class="td-gray">
                         Mathematics, Analytics, Reading, Spelling, Writing, Sequencing, Verbal And Written Language, Sensing, Observing.
                     </div>
+                    <img class="arrow-icon" src="assets/images/Page 30/two-way-arrow.png" />
                 </div>
                 <div class="main-col-gray">
-                    <div class="td-gray">
+                    <div class="td-gray ml-10">
                         Multi-Dimensional Thinking, Art, Music, Drawing, Athletics, Coordination, Repairs, Remembers Faces, Places, Events. 
                     </div>
                 </div>
             </div>
         </div>
+
+        <div style="margin-top: 5px;">
+            <div class="footer-elem">
+              Evaluation# {{ data.dataMap.footer.evalNo }}
+            </div>
+            <div class="footer-elem2 text-left">
+              Date {{ data.dataMap.footer.date }}
+            </div>
+            <div class="footer-elem1">
+              @Copyright - Siyasar Enterprise
+            </div>
+            <div class="footer-elem">
+              www.brainography.com
+            </div>
+            <div class="footer-elem">
+              Design By Freepik
+            </div>
+        
+            <div class="clear-both"></div>
+        </div>
+        <div class="text-center">
+            {{ i + 108 }}
+        </div>
+
     </div>
 
 </div>

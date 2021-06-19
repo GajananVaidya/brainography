@@ -1,8 +1,8 @@
 .flex-row { display: flex; flex-wrap: wrap; }
 .pink-section { flex: 1; margin-right:5px; font-size: 12px; }
 .mt-5 { margin-top: 5px; }
-.main-content {  width: 143%; text-align: justify; transform: translate(-16%, 22%) rotate(-90deg); }
-/* transform: translate(-16%, 23%) rotate(-90deg); */
+.main-content {  width: 143%; text-align: justify; transform: translate(-16%, 20%) rotate(-90deg);}
+/* transform: translate(-16%, 22%) rotate(-90deg); */
 .pink-heading { flex: 1; background: #f4b9bf; padding: 5px; font-weight: bold; }
 .pink-perc { padding: 2px; background: #281475; color: white; font-weight: bold; }
 .pink-body { background: #fde9e8; padding: 5px; font-size: 10px; min-height: 130px; }
@@ -18,3 +18,6 @@
 
 .second-flex-row { flex: 1; }
 .second-flex-middle-row { flex: 4; }
+
+.inside-heading { color: #262d77; font-size: 18px; font-weight: 900; font-style: italic; }
+.twenty-fifth-page { margin-left: 40px; }
