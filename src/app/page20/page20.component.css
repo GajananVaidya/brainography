@@ -47,9 +47,9 @@
 .seventh-page-third { flex: 1; text-align: center; border-radius: 20px; padding: 10px; background-color: #b6e0f8; margin-right: 10px; margin-top: 10px;}
 .seventh-page-forth { flex: 1; text-align: center; border-radius: 20px; padding: 10px; background-color: #d8d3e9; margin-left: 10px; margin-top: 10px;}
 .twentyh-page-empl { display: flex; flex-wrap: wrap; }
-.seventh-page-igcse-wrapper { flex: 1; border-right: 2px solid #fbdcd8; border-bottom: 2px solid #33b1c2; flex-direction: column; display: flex; }
-.seventh-page-ib-wrapper { flex: 1; border-bottom: 2px solid #b6ddc7; flex-direction: column; display: flex;}
-.seventh-page-third-wrapper { flex: 1; border-right: 2px solid #fbdcd8; flex-direction: column; display: flex;}
+.seventh-page-igcse-wrapper { flex: 1; border-right: 2px solid rgb(245, 185, 190); border-bottom: 2px solid #33b1c2; flex-direction: column; display: flex; }
+.seventh-page-ib-wrapper { flex: 1; border-bottom: 2px solid rgb(149, 207, 176); flex-direction: column; display: flex;}
+.seventh-page-third-wrapper { flex: 1; border-right: 2px solid #d8d3e9; flex-direction: column; display: flex;}
 .seventh-page-forth-wrapper { flex: 1; flex-direction: column; display: flex;}
 
 .fifth-page-row { padding: 5px; font-size: 13.5px;  }

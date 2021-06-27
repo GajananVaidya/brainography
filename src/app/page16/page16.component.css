@@ -29,7 +29,7 @@ align-items: center;}
     flex: 1;
 }
 .sixteenth-page-careerhuman{
-    background-color: #a198c5;
+    background-color: rgb(160, 151, 197);
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -41,7 +41,7 @@ align-items: center;}
     flex: 5.19;
 }
 .sixteenth-page-careerhumanperc{
-    background-color: #a198c5;
+    background-color: rgb(160, 151, 197);
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -77,9 +77,9 @@ align-items: center;}
     flex: 4; 
 }
 .sixteenth-page-careerplant{
-    background-color: #a198c5;
+    background-color: rgb(160, 151, 197);
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     padding: 10px 0px;
     color: white; 
@@ -110,7 +110,7 @@ align-items: center;}
     flex: 1;
 }
 .sixteenth-page-careerplant1{
-    background-color: #a198c5;
+    background-color: rgb(160, 151, 197);
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;

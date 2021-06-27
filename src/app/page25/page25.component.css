@@ -19,5 +19,5 @@
 .second-flex-row { flex: 1; }
 .second-flex-middle-row { flex: 4; }
 
-.inside-heading { color: #262d77; font-size: 18px; font-weight: 900; font-style: italic; }
+.inside-heading { background: #262d77; color: white; text-align: center; font-size: 18px; font-weight: 900; font-style: italic; }
 .twenty-fifth-page { margin-left: 40px; }

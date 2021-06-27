@@ -20,7 +20,7 @@
                 <span class="twentyth-page-section-heading">
                     ADMINISTRATION:
                 </span>
-                <span class="text-bold">The Ability to Manage</span>
+                <span class="text-bold" style="text-decoration: underline;">The Ability to Manage</span>
 
                 <div>
                     Competence of putting things into perspective and getting the job done by reviewing efforts and contributions of self and others. 
@@ -28,7 +28,8 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    {{data.dataMap.page21.admin}}
+                    {{data.dataMap.page21.admin}}%<br />
+                    {{data.dataMap.page21.admin_2}}
                 </div>
             </div>
         </div>
@@ -38,7 +39,7 @@
                 <span class="twentyth-page-section-heading">
                     PLANNING:
                 </span>
-                <span class="text-bold">The Ability to take Right Decision</span>
+                <span class="text-bold" style="text-decoration: underline;">The Ability to take Right Decision</span>
 
                 <div>
                     Expertise in analyzing all significant aspects and sequencing them in right order to determine the next course of action. 
@@ -46,7 +47,8 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    {{data.dataMap.page21.planning}}
+                    {{data.dataMap.page21.planning}}%<br />
+                    {{data.dataMap.page21.planning_2}}
                 </div>
             </div>
         </div>
@@ -56,7 +58,7 @@
                 <span class="twentyth-page-section-heading">
                     EXECUTION:
                 </span>
-                <span class="text-bold">The Ability to Accomplish</span>
+                <span class="text-bold" style="text-decoration: underline;">The Ability to Accomplish</span>
 
                 <div>
                     Capacity and skills to indulge physically, to perform a task persistently, utilizing, Dexterity, Stamina and Endurance. 
@@ -64,7 +66,8 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    {{data.dataMap.page21.execution}}
+                    {{data.dataMap.page21.execution}}%<br />
+                    {{data.dataMap.page21.execution_2}}
                 </div>
             </div>
         </div>
@@ -74,7 +77,7 @@
                 <span class="twentyth-page-section-heading">
                     CORRESPONDENCE:
                 </span>
-                <span class="text-bold">The ability to Communicate</span>
+                <span class="text-bold" style="text-decoration: underline;">The Ability to Communicate</span>
 
                 <div>
                     Natural propensity to read between the lines, understanding verbal & non-verbal communication & responding appropriately to generate desired results. 
@@ -82,7 +85,8 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    {{data.dataMap.page21.correspondence}}
+                    {{data.dataMap.page21.correspondence}}%<br />
+                    {{data.dataMap.page21.correspondence_2}}
                 </div>
             </div>
         </div>
@@ -92,7 +96,7 @@
                 <span class="twentyth-page-section-heading">
                     EXPLORATION:
                 </span>
-                <span class="text-bold">The Ability to Probe and Update</span>
+                <span class="text-bold" style="text-decoration: underline;">The Ability to Probe and Update</span>
 
                 <div>
                     Efficiency to observe how the world is progressing and moving forward, getting into details and applying foresight to upgrade to next generation 
@@ -100,7 +104,8 @@
             </div>
             <div class="column-two">
                 <div class="perc-col">
-                    {{data.dataMap.page21.exploration}}
+                    {{data.dataMap.page21.exploration}}<br />
+                    {{data.dataMap.page21.exploration_2}}
                 </div>
             </div>
         </div>
@@ -117,28 +122,36 @@
             </div>
             <div class="graph-section">
                 <div class="bar-col">
-                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.iq)+'px' }"> {{data.dataMap.page21.iq}}%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.iq)+'px' }"> {{data.dataMap.page21.iq}}%
+                        <br /> {{data.dataMap.page21.iq_2}}
+                    </span>
                     <div></div>
                     <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.iq)+'px' }" style="background-color: rgb(245, 185, 190);">
                         <div class="bar-index">IQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.eq)+'px' }">{{data.dataMap.page21.eq}}%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.eq)+'px' }">{{data.dataMap.page21.eq}}%
+                        <br />{{data.dataMap.page21.eq_2}}
+                    </span>
                     <div></div>
                     <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.eq)+'px' }" style="background-color: rgb(149, 207, 176);">
                         <div class="bar-index">EQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.aq)+'px' }">{{data.dataMap.page21.aq}}%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.aq)+'px' }">{{data.dataMap.page21.aq}}%
+                        <br />{{data.dataMap.page21.aq_2}}
+                    </span>
                     <div></div>
                     <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.aq)+'px' }" style="background-color: rgb(64, 182, 237);">
                         <div class="bar-index">AQ</div>
                     </div>
                 </div>
                 <div class="bar-col">
-                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.cq)+'px' }">{{data.dataMap.page21.cq}}%</span>
+                    <span class="text-bold" [ngStyle]="{'bottom': addTwelve(data.dataMap.page21.cq)+'px' }">{{data.dataMap.page21.cq}}%
+                        <br />{{data.dataMap.page21.cq_2}}
+                    </span>
                     <div></div>
                     <div class="bar" [ngStyle]="{'height': addTwelve(data.dataMap.page21.cq)+'px' }" style="background-color: rgb(160, 151, 197);">
                         <div class="bar-index">CQ</div>
@@ -148,28 +161,28 @@
         </div>
     </div>
 
-    <div class="color-boxes" style="background-color: #feeeee;">
+    <div class="color-boxes" style="background-color: #F8D1C9;">
         <div class="text-bold">IQ - INTELLIGENCE QUOTIENT</div>
         <div>
             It is the measure of your ability to analyze cost-benefit effect logically and communicate it in an effective language to achieve the desired results. It is your level of cognitive skills in Thinking, Perception, Analysis, Synthesis and Reasoning. 
         </div>
     </div>
 
-    <div class="color-boxes" style="background-color: #e2f1e4;">
+    <div class="color-boxes" style="background-color:#d7ebdf;">
         <div class="text-bold">EQ - EMOTIONAL QUOTIENT</div>
         <div>
             It is the measure of your ability to manage self- emotions smartly when dealing with others. It is your potential to display self- control with confidence and skills to respond to the feelings of others in a matured way. 
         </div>
     </div>
 
-    <div class="color-boxes" style="background-color: #c6e6fa;">
+    <div class="color-boxes" style="background-color:#b6e0f8;">
         <div class="text-bold">AQ - ADVERSITY QUOTIENT</div>
         <div>
             It is the measure of your ability to respond to surprise or unpredicted events or crisis. It is the quantification of your resilience and capacity to live, work and deal with unavoidable & undesirable circumstances such as Flight-or-Fight response, Panic situations, Accidents etc. 
         </div>
     </div>
 
-    <div class="color-boxes" style="background-color: #dcdcef;">
+    <div class="color-boxes" style="background-color: #d8d3e9;">
         <div class="text-bold">CQ - CREATIVITY QUOTIENT</div>
         <div>
             Is the measure of your ability to combine and re-arrange ideas, things, techniques and approaches in a new way to accomplish a task. It is the depth of your creative intelligence with expressiveness and applied innovation. (Right from Intuition to Improvisation). 
