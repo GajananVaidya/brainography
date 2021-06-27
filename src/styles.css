@@ -17,6 +17,7 @@
 .mt-18{ margin-top: 18px; }
 .mt-16{ margin-top: 16px; }
 .mt-22{ margin-top: 22px; }
+.pg-num { font-size: 14px; margin-left: 40px; }
 .paddtop23{ padding-top: 20px;}
 .mx-15 { margin-left: 15px; margin-right: 15px; }
 .mx-17 { margin-left: 17px; margin-right: 17px; }
@@ -221,11 +222,11 @@
   .footer-elem1 { width: 23%; float: left; font-size: 9px; text-align: center; font-family: arial;}
   .footer-elem2 { width: 17%; float: left; font-size: 9px; text-align: center; font-family: arial;}
   
-  .first-page { padding: 40px; padding-right: 30px; padding-bottom: 15px; font-size: 14px; position: relative; letter-spacing: 1px; padding-left: 40px;
-      font-family: 'firstPage'; background: url('assets/images/Background Img.png'); background-size: cover; }
-  .cover-page-heading > h5 {  font-size: 30px; display: inline-block; margin: 0; font-weight: bolder;  }
-  .cover-list-heading { font-size: 24px; display: inline-block; margin: 0; margin-left: 3px; font-weight: 600; }
-  .cover-list-heading2 { font-size: 24px; display: inline-block; margin: 0; font-weight: bolder; position: absolute; bottom: 0; left: 20%; }
+  .first-page { padding: 5px 30px 40px 40px; font-size: 14px; position: relative; letter-spacing: 1px; font-family: 'firstPage';
+     background: url('assets/images/Background Img.png'); background-size: cover; margin-left: 40px; margin-top: 18px; }
+  .cover-page-heading > h5 {  font-size: 30px; font-family: 'firstPage'; display: inline-block; margin: 0; font-weight: bolder;  }
+  .cover-list-heading { font-size: 24px; display: inline-block; font-family: 'firstPage'; margin: 0; margin-left: 3px; font-weight: 600; }
+  .cover-list-heading2 { font-size: 24px; display: inline-block; font-family: 'firstPage'; margin: 0; font-weight: bolder; position: absolute; bottom: 0; left: 20%; }
   .cover-page-first-logo { display: inline-block; float: right; right: 15px; top: 50px; position: absolute; }
   .cover-page-second-logo { position: absolute; top: 21%; right: 0; }
   .cover-page-first-logo img { height: 90px; }
@@ -233,7 +234,7 @@
   .list-color-disc-cover { margin-top: -7px; list-style-type: none; padding-left: 20px; padding-left: 0;}
   .disc-color-cover { width: 4px; height: 4px; background: #32b1c5; display: inline-block; border-radius: 10px; margin-right: 10px; 
     vertical-align: middle;}
-  .first-page ul li { line-height: 25px; margin-top: 5px; font-weight: normal; font-size: 16px; margin-bottom: 10px; }
+  .first-page ul li { line-height: 25px; margin-top: 5px; font-weight: bold; font-size: 16px; margin-bottom: 10px; }
   .first-page-name-wrapper { margin-top: 5px; }
   .first-page-name-box { border: 1px solid #d1d1d1; border-radius: 10px; padding: 20px; box-shadow: 0px -1px 10px #b3b3b3; 
     background: white; padding-bottom: 10px;}
@@ -428,7 +429,7 @@
         color: #666;
         line-height: 18px;
         font-weight: normal;
-        padding: 5px 10px;
+        /* padding: 5px 10px; */
         word-break: break-word;
         /* border-bottom: 1px solid #3a3633;
         border-right: 1px solid #3a3633; */
@@ -574,14 +575,14 @@
       }
   
       .page4-paddbx12 {
-        padding: 0px 20px 5px 20px;
+        padding: 0px 20px 20px 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         color: #201b18;
         line-height: 18px;
         font-weight: normal;
         background-color: #ebebeb;
-        text-align: justify;
+        text-align: left;
       }
   
       .page4-main-head {
@@ -610,7 +611,7 @@
         color: #ffffff;
         line-height: 20px;
         background-color: #39b3c2;
-        text-align: justify;
+        text-align: center;
       }
   
       .page4-subhead {
@@ -671,7 +672,7 @@
       }
   
   
-  .third-page-disclaimer { font-family: Arial; font-size: 13px; color: #00a9be; font-weight: bold; padding-left: 15px;padding-right: 15px;line-height: 14px; padding-top: 12px;  }
+  .third-page-disclaimer { font-family: Arial; font-size: 16px; color: #00a9be; font-weight: 900; padding-left: 15px;padding-right: 15px;line-height: 14px; }
   
   .Fifth-page1{
     font-weight: 900;
@@ -875,7 +876,7 @@
       background-color: #2e3192;
       padding: 5px 10px;
       float: left;
-      font-weight: normal;
+      font-weight: bold;
   }
   
   .fifth-section-name {
@@ -934,3 +935,4 @@
   }
 
 .text-bold { font-weight: bold; }
+.text-justify { text-align: justify; }

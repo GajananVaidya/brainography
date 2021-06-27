@@ -39,17 +39,22 @@ import { Page33Component } from './page33/page33.component';
 import { Page34Component } from './page34/page34.component';
 import { Page35Component } from './page35/page35.component';
 import { Page36Component } from './page36/page36.component';
-import { Page43Component } from './page43/page43.component';
-import { Page44Component } from './page44/page44.component';
-import { Page48Component } from './page48/page48.component';
-import { Page49Component } from './page49/page49.component';
+
+
 import { Page41Component } from './page41/page41.component';
 import { Page42Component } from './page42/page42.component';
 import { Page37Component } from './page37/page37.component';
 import { Page38Component } from './page38/page38.component';
 import { Page39Component } from './page39/page39.component';
 import { Page40Component } from './page40/page40.component';
+
+import { Page43Component } from './page43/page43.component';
+import { Page44Component } from './page44/page44.component';
 import { Page45Component } from './page45/page45.component';
+import { Page46Component } from './page46/page46.component';
+import { Page47Component } from './page47/page47.component';
+import { Page48Component } from './page48/page48.component';
+import { Page49Component } from './page49/page49.component';
 
 @NgModule({
   declarations: [
@@ -101,7 +106,9 @@ import { Page45Component } from './page45/page45.component';
     Page38Component,
     Page39Component,
     Page40Component,
-    Page45Component
+    Page45Component,
+    Page46Component,
+    Page47Component
   ],
   imports: [
     BrowserModule
