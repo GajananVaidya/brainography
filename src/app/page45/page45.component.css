@@ -1,0 +1,21 @@
+.forty-five-page { font-size: 14px; margin-left: 40px; }
+.blue-header{ font-family: Arial, Helvetica, sans-serif; color: #ffffff; padding: 3px;
+    background-color: #36b2c2;  text-align: center; font-size: 20px; font-weight: 600;}
+
+.flex-row { display: flex; flex-wrap: wrap; }
+.flex-05 { flex: 0.5; }
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2.2; }
+.flex-5 { flex: 4; }
+.mt-5 { margin-top: 5px; }
+
+.gray-bg { background: #f1f1f1; justify-content: center; display: flex; flex-direction: column; margin-right: 5px; padding: 2px; min-height: 36px;
+    padding-left: 5px; }
+.gray-bg:last-child { margin-right: 0px;} 
+
+.darkgray-bg { background: #e7e7e7; justify-content: center; display: flex; flex-direction: column; margin-right: 5px; padding: 2px; min-height: 36px;
+    padding-left: 5px; }
+.darkgray-bg:last-child { margin-right: 0px;} 
+
+.disc-section { background: #281571; color: white; text-align: center; padding: 6px; font-weight: bold; }
+

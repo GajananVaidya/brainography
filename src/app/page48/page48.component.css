@@ -11,3 +11,5 @@
 .photo-wrapper { width: 50%; display: inline-block; text-align: left; }
 .font-size-16 { font-size: 16px; }
 .text-italic { font-style: italic; }
+
+.disc-bg { background: #f1f1f1; padding: 20px; font-size: 11px; }
