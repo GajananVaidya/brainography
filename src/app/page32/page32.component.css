@@ -22,6 +22,6 @@
 .flex-1 { flex: 1; }
 .flex-3 { flex: 3; }
 .caption { font-size: 11px; font-weight: bold; margin-top: 8px; }
-.circle-1 { width: 50px; height: 50px; display: inline-block; border: 1px solid; border-radius: 100%; background: #c3c063; }
+.circle-1 { width: 35px; height: 35px; display: inline-block; border: 1px solid; border-radius: 100%; background: #c3c063; }
 .zero-div { display: inline-block; background: #281571; color: white; padding: 2px 20px; font-size: 22px; font-weight: bold; margin-left: 5px;
     vertical-align: middle; }
